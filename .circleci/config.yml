@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Install pandoc and texlive
-          command: apt-get update && apt-get install pandoc pandoc-citeproc texlive
+          command: apt-get update && apt-get -y install pandoc pandoc-citeproc texlive
       - run:
           name: Generate pdf of assignment 1
           command: pandoc --filter pandoc-citeproc assignment-1.md -o assignment-1.pdf
