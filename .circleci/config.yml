@@ -12,5 +12,4 @@ jobs:
           name: Generate pdf of assignment 2
           command: pandoc --filter pandoc-citeproc assignment-2.md -o assignment-2.pdf
       - store_artifacts:
-          path: *.pdf
-          destination: artifact-file
+          path: .
