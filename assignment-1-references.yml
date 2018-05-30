@@ -1,0 +1,16 @@
+---
+references:
+- id: schauz2014basic
+  type: article-journal
+  author:
+  - family: Schauz
+    given: Désirée
+  issued:
+  - year: '2014'
+  title: What is basic research? Insights from historical semantics
+  container-title: Minerva
+  publisher: Springer
+  page: '273-328'
+  volume: '52'
+  issue: '3'
+...

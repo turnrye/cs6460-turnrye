@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: debian:stretch
+    steps:
+      - checkout
+      - run:
+          name: Install pandoc and texlive
+          command: apt-get update && apt-get install pandoc pandoc-citeproc texlive
+      - run:
+          name: Generate pdf of assignment 1
+          command: pandoc --filter pandoc-citeproc assignment-1.md -o assignment-1.pdf
+      - run:
+          name: Generate pdf of assignment 2
+          command: pandoc --filter pandoc-citeproc assignment-2.md -o assignment-2.pdf
