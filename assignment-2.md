@@ -15,7 +15,7 @@ references:
 - id: googledeveloperstraining
   type: webpage
   author:
-  - family: Apple
+  - family: Google
   issued:
   - year: '2018'
   accessed:
