@@ -120,12 +120,17 @@ references:
     devices;Smartphone programming
   DOI: 10.1109/FIE.2010.5673608
   ISSN: '0190-5848'
+title: "Assignment 2"
+date: "June 2018"
+author: "Ryan Turner"
+classoption: twocolumn
 ---
-# Ryan Turner's Assignment 2
+
+# Track Selection
 
 I'd like to focus on a research track for this course. This was a rather straight forward decision for me, as in the past I've worked on both materials and development of educational tech: I did this as part of my job to help onboard new team members. In my undergraduate studies, I worked in a biology research lab helping with bioinformatics. I did not have the chance to participate in any of the writing; given the opportunity today, I'd like to do that.
 
-## Theories on Learning Mobile App Development
+# Theories and Techniques on Learning Mobile App Development
 
 University courses teaching mobile development are dominated by native development. In my university studies, I learned iOS development, and here at the OMSCS program Android development is taught in the SDP class. Partly this is due to what materials and resources exist from the platforms themselves [@iosdeveloperuniversityprogram, @googledeveloperstraining]. Interestingly, online courses for hybrid development using frameworks like Ionic, Cordova, and React Native dominate platforms like Udemy and Lynda. I did find examples of courses and curriculums teaching both native iOS and Android development [@payne2014teaching, @sprinkle2011teaching] as well as homing in on a single platform (typically Android, since unlike iOS, development can take place on any computer) [@mahmoud2010mobile]. However, there were no examples of courses teaching hybrid app development that I could find. Instead, I suspect that students are self-teaching, even when the framework is used for a project in a class.
 
@@ -135,7 +140,7 @@ Academic research does show use of Cordova and Ionic in higher education for res
 
 In the materials I found discussing courses and materials for teaching mobile app development [@payne2014teaching, @sprinkle2011teaching, @mahmoud2010mobile, hu2012curriculum], the approach generally was consistent. First, they presented the architecture for their curriculum and positioned it against other types of development. Then, the tools needed for the learners are presented. Finally, a course overview is presented listing the typical assignments. Analysis is done on the outcomes of this curriculum demonstrating its effectiveness and adoption. This approach seems commonplace.
 
-## The Problem to Study
+# The Problem to Study
 
 Recently, I've begun working as a community team member on the React Native project. This is an open-source hybrid mobile development framework created by Facebook. My contributions to date have been in organizing and writing the changelog and managing the channel for community release discussion. What I've anecdotally observed is that students learn React Native far differently from native mobile frameworks. I plan to focus on the following aspects of learning hybrid mobile development:
 
