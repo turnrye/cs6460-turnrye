@@ -125,20 +125,28 @@ references:
 
 I'd like to focus on a research track for this course. This was a rather straight forward decision for me, as in the past I've worked on both materials and development of educational tech: I did this as part of my job to help onboard new team members. In my undergraduate studies, I worked in a biology research lab helping with bioinformatics. I did not have the chance to participate in any of the writing; given the opportunity today, I'd like to do that.
 
-Recently, I've begun working as a community team member on the React Native project. This is an open-source hybrid mobile development framework created by Facebook. My contributions to date have been in organizing and writing the changelog and managing the channel for community release discussion. What I've anecdotally observed is that students learn React Native far differently from other mobile frameworks. I plan to focus on the following aspects of learning hybrid mobile development:
+## Theories on Learning Mobile App Development
 
-**How do developers learn the React Native framework, and how is it perceived by its learners?**
+University courses teaching mobile development are dominated by native development. In my university studies, I learned iOS development, and here at the OMSCS program Android development is taught in the SDP class. Partly this is due to what materials and resources exist from the platforms themselves [@iosdeveloperuniversityprogram, @googledeveloperstraining]. Interestingly, online courses for hybrid development using frameworks like Ionic, Cordova, and React Native dominate platforms like Udemy and Lynda. I did find examples of courses and curriculums teaching both native iOS and Android development [@payne2014teaching, @sprinkle2011teaching] as well as homing in on a single platform (typically Android, since unlike iOS, development can take place on any computer) [@mahmoud2010mobile]. However, there were no examples of courses teaching hybrid app development that I could find. Instead, I suspect that students are self-teaching, even when the framework is used for a project in a class.
 
-**RQ1: Do engineers find learning React Native development simpler than learning traditional native application development?**
+Academic research does show use of Cordova and Ionic in higher education for research projects, but no suggestions were made regarding how the researchers originally learned mobile app development. I suspect that online courses are the prevailing ways that students learned, however this tends to be sub-optimal. Most video-lecture format materials are quickly out of date (once again, this is based on my own experience), as each of these hybrid frameworks introduce breaking changes and new features monthly. The native frameworks themselves too represent a challenge, as they introduce annual major version releases. Various techniques of mobile development are demonstrated in academic writing, however little focus is given on how the learner went about familiarizing themselves with mobile platform challenges and development framework specifics.
 
-**RQ2: Where do developers learn React Native development?**
+@que2016 does mention some of the potential benefits of teaching hybrid development, such as the time to master the material. Many presumptions were made regarding the ease of developing using JavaScript and HTML when compared with native app languages like Objective-C and Java. While I personally agree with these statements, I didn't find comfort in these statements being made without evidence of citation, survey, or study. I also found that from time to time the author referred to applications written with the Cordova as being developed in HTML5, which didn't honestly represent the effort – while UI is written in HTML, the functionality is written in JavaScript.
+
+In the materials I found discussing courses and materials for teaching mobile app development [@payne2014teaching, @sprinkle2011teaching, @mahmoud2010mobile, hu2012curriculum], the approach generally was consistent. First, they presented the architecture for their curriculum and positioned it against other types of development. Then, the tools needed for the learners are presented. Finally, a course overview is presented listing the typical assignments. Analysis is done on the outcomes of this curriculum demonstrating its effectiveness and adoption. This approach seems commonplace.
+
+## The Problem to Study
+
+Recently, I've begun working as a community team member on the React Native project. This is an open-source hybrid mobile development framework created by Facebook. My contributions to date have been in organizing and writing the changelog and managing the channel for community release discussion. What I've anecdotally observed is that students learn React Native far differently from native mobile frameworks. I plan to focus on the following aspects of learning hybrid mobile development:
+
+**How do developers learn hybrid mobile app frameworks, and how are they perceived by learners?**
+
+Below is a draft of research questions that may be considered to guide investigating this question:
+
+**RQ1: Do engineers find learning hybrid development simpler than learning traditional native application development?**
+
+**RQ2: Where do developers learn hybrid development?**
 
 **RQ3: How widely are hybrid mobile app development frameworks included in university undergraduate programs, like lesson plans and course projects?**
-
-@que2016 inspired the first question, however I found a number of the conclusions made to be unsubstantiated. Many presumptions were made regarding the ease of developing using JavaScript and HTML when compared with native app languages like Objective-C and Java. While I personally agree with these statements, I didn't find comfort in these statements being made without evidence of citation, survey, or study. I also found that from time to time the author referred to applications written with the Cordova as being developed in HTML5, which didn't honestly represent the effort – while UI is written in HTML, the functionality is written in JavaScript. I think RQ1 warrants further research.
-
-The second research question was motivated by my own personal experience. In my university studies, I had learned iOS development, and here at the OMSCS program I've had the opportunity to learn Android development. Partly this is due to what materials and resources exist from the platforms themselves [@iosdeveloperuniversityprogram, @googledeveloperstraining]. I've also found Cordova and PhoneGap used in university projects. However, despite frequent use in industry, I've not found instances of React Native in a higher education setting. So, I'm interested to learn where developers are learning React Native. There are many online resources for this, however most are quickly out of date or low quality (once again, first hand knowledge). This question will look at both traditional school resources and online courses.
-
-The third research question comes to help ground the rest of the research. For instance, if RQ2 turns out to scarcely mention university studies, we may find that it is not due to poor student learning outcomes but rather lack of exposure. I did find examples of courses and curriculums teaching both native iOS and Android development [@payne2014teaching, @sprinkle2011teaching] as well as honing in on a single platform (typically Android, since unlike iOS, development can take place on any computer) [@mahmoud2010mobile]. However, there were no examples of courses teaching hybrid app development that I could find. I instead suspect that students may be self-teaching, even when used for a project in a course.
 
 ## References
