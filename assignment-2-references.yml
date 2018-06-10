@@ -1,121 +1,97 @@
 ---
 references:
-- id: reactshowcase
-  type: webpage
-  author:
-  - family: Facebook
-  issued:
-  - year: '2018'
-  accessed:
-  - year: '2018'
-    month: '5'
-    day: '26'
-  title: React native · a framework for building native apps using react
-  URL: https://facebook.github.io/react-native/showcase.html
-
-- id: huynh2017hybrid
-  type: article-journal
-  author:
-  - family: Huynh
-    given: Minh
-  - family: Ghimire
-    given: Prashant
-  - family: Truong
-    given: Donny
-  issued:
-  - year: '2017'
-  title: 'Hybrid app approach: Could it mark the end of native app domination?'
-  title-short: Hybrid app approach
-  container-title: Issues in Informing Science and Information Technology
-  page: '049-065'
-  volume: '14'
-
-- id: noei2017study
-  type: article-journal
-  author:
-  - family: Noei
-    given: Ehsan
-  - family: Syer
-    given: Mark D
-  - family: Zou
-    given: Ying
-  - family: Hassan
-    given: Ahmed E
-  - family: Keivanloo
-    given: Iman
-  issued:
-  - year: '2017'
-  title: A study of the relation of mobile device attributes with the user-perceived
-    quality of android apps
-  container-title: Empirical Software Engineering
-  publisher: Springer
-  page: '3088-3116'
-  volume: '22'
-  issue: '6'
-
-- id: hu2018studying
-  type: article-journal
+- id: hu2012curriculum
+  type: paper-conference
   author:
   - family: Hu
-    given: Hanyang
-  - family: Wang
-    given: Shaowei
-  - family: Bezemer
-    given: Cor-Paul
-  - family: Hassan
-    given: Ahmed E
-  issued:
-  - year: '2018'
-  title: Studying the consistency of star ratings and reviews of popular free hybrid
-    android and iOS apps
-  container-title: Empirical Software Engineering
-  publisher: Springer
-  page: '1-26'
-
-- id: liu2017
-  type: paper-conference
-  author:
-  - family: Liu
-    given: W.
-  - family: Zou
-    given: Y.
-  - family: Yang
-    given: Y.
-  - family: Cheng
-    given: W.
-  - family: Zhang
-    given: G.
-  issued:
-  - year: '2017'
-    month: '12'
-  title: How app update affects app download in iOS appstore
-  container-title: 2017 3rd ieee international conference on computer and communications
-    (iccc)
-  page: '2499-2502'
-  keyword: iOS (operating system);mobile computing;app developers;app download;app
-    update;average downloads;digital distribution platforms;end users;metric named
-    Pulling Rate;mobile applications;mobile stores;release strategies;third-party
-    appstore;Ecosystems;Extraterrestrial measurements;Google;Libraries;Mobile applications;Software;AppStore;Measurement;Update;component
-  DOI: 10.1109/CompComm.2017.8322985
-
-- id: que2016
-  type: paper-conference
-  author:
-  - family: Que
-    given: P.
+    given: Wei
   - family: Guo
-    given: X.
-  - family: Zhu
-    given: M.
+    given: Hong
   issued:
-  - year: '2016'
+  - year: '2012'
+    month: '8'
+  title: Curriculum architecture construction of mobile application development
+  container-title: 2012 international symposium on information technologies in medicine
+    and education
+  page: '43-47'
+  volume: '1'
+  keyword: computer aided instruction;mobile computing;operating systems (computers);smart
+    phones;basic software platforms;curriculum architecture construction;embedded
+    operating systems;flexible curriculum architecture;mobile application development
+    courses;mobile computing;mobile devices;programming skills;smartphone devices;wireless
+    networks;Androids;Computers;Earth Observing System;Humanoid robots;Mobile communication;Training;World
+    Wide Web;course design;curriculum;embedded system;mobile application development
+  DOI: 10.1109/ITiME.2012.6291243
+
+- id: payne2014teaching
+  type: article-journal
+  author:
+  - family: Payne
+    given: Bryson R.
+  issued:
+  - year: '2014'
     month: '12'
-  title: A comprehensive comparison between hybrid and native app paradigms
-  container-title: 2016 8th international conference on computational intelligence
-    and communication networks (cicn)
-  page: '611-614'
-  keyword: hypermedia markup languages;mobile computing;HTML5 language;hybrid app
-    paradigm;mobile application development;native app paradigm;Androids;Hardware;Humanoid
-    robots;Mobile communication;Smart phones;Testing;Tools;hybrid;mobile app paradigm;native;performance
-  DOI: 10.1109/CICN.2016.125
+  title: Teaching android and iOS native mobile app development in a single semester
+    course
+  container-title: J. Comput. Sci. Coll.
+  publisher: Consortium for Computing Sciences in Colleges
+  publisher-place: USA
+  page: '176-183'
+  volume: '30'
+  issue: '2'
+  URL: http://dl.acm.org/citation.cfm?id=2667432.2667458
+  ISSN: '1937-4771'
+
+- id: sprinkle2011teaching
+  type: paper-conference
+  author:
+  - family: Sprinkle
+    given: Jonathan
+  issued:
+  - year: '2011'
+  title: Teaching students to learn to learn mobile phone programming
+  container-title: Proceedings of the compilation of the co-located workshops on dsm’11,
+    tmc’11, agere! 2011, aoopes’11, neat’11, & vmil’11
+  publisher: ACM
+  page: '261-266'
+
+- id: mahmoud2010mobile
+  type: paper-conference
+  author:
+  - family: Mahmoud
+    given: Q. H.
+  - family: Popowicz
+    given: P.
+  issued:
+  - year: '2010'
+    month: '10'
+  title: A mobile application development approach to teaching introductory programming
+  container-title: 2010 ieee frontiers in education conference (fie)
+  page: T4F-1-T4F-6
+  keyword: computer aided instruction;computer science education;mobile computing;computer
+    engineering education;computer science education;information technology education;introductory
+    programming teaching;mobile application development approach;mobile devices;smartphones;Education;Handheld
+    computers;Java;Mobile communication;Mobile handsets;Programming profession;CS1;Mobile
+    devices;Smartphone programming
+  DOI: 10.1109/FIE.2010.5673608
+  ISSN: '0190-5848'
+
+- id: payne2014teaching
+  type: article-journal
+  author:
+  - family: Payne
+    given: Bryson R.
+  issued:
+  - year: '2014'
+    month: '12'
+  title: Teaching android and iOS native mobile app development in a single semester
+    course
+  container-title: J. Comput. Sci. Coll.
+  publisher: Consortium for Computing Sciences in Colleges
+  publisher-place: USA
+  page: '176-183'
+  volume: '30'
+  issue: '2'
+  URL: http://dl.acm.org.prx.library.gatech.edu/citation.cfm?id=2667432.2667458
+  ISSN: '1937-4771'
 ...
