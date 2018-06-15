@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Ryan Turner" date="2018-06-12T14:37:50.890Z" timestamp="2018-06-12T14:37:50.890Z">
+    <change idref="t1" attribute="resourceLeveledDate" type="date" to="2018-06-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="resourceLeveledDate" type="date" to="2018-06-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t6" attribute="resourceLeveledDate" type="date" to="2018-07-03T00:00:00.000Z" resolved="yes"/>
+    <change idref="t7" attribute="resourceLeveledDate" type="date" to="2018-07-10T00:00:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="resourceLeveledDate" type="date" to="2018-07-17T00:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="noLaterThanConstrainedTaskEnd" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t9" attribute="resourceLeveledDate" type="date" to="2018-06-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" to="2018-07-10T00:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" to="2018-07-24T00:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" to="2018-07-24T00:00:00.000Z" resolved="yes"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" to="2018-07-24T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:04:24.328Z" timestamp="2018-06-14T03:04:24.328Z">
+    <change idref="t21" to="t-1" to-position="0" resolved="yes">
+      <change idref="t21" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t21" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t21" attribute="resourceLeveledDate" type="date" to="2018-06-19T00:00:00.000Z"/>
+      <change idref="t21" attribute="title" type="string" to="Build survey for RQ1"/>
+    </change>
+    <change idref="t25" to="t-1" to-position="1" resolved="yes">
+      <change idref="t25" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t25" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t25" attribute="internalPrerequisitesString" type="string" to="21FS"/>
+      <change idref="t25" attribute="resourceLeveledDate" type="date" to="2018-06-21T00:00:00.000Z"/>
+      <change idref="t25" attribute="title" type="string" to="Distribute survey for RQ1"/>
+    </change>
+    <change idref="t26" to="t-1" to-position="12" resolved="yes">
+      <change idref="t26" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t26" attribute="internalPrerequisitesString" type="string" to="25FS"/>
+      <change idref="t26" attribute="resourceLeveledDate" type="date" to="2018-07-28T20:00:00.000Z"/>
+      <change idref="t26" attribute="title" type="string" to="Compile results, analyze RQ1"/>
+    </change>
+    <change idref="t22" to="t-1" to-position="13" resolved="yes">
+      <change idref="t22" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t22" attribute="resourceLeveledDate" type="date" to="2018-07-31T00:00:00.000Z"/>
+      <change idref="t22" attribute="title" type="string" to="Manually review RQ2"/>
+    </change>
+    <change idref="t27" to="t-1" to-position="14" resolved="yes">
+      <change idref="t27" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t27" attribute="resourceLeveledDate" type="date" to="2018-08-04T15:00:00.000Z"/>
+      <change idref="t27" attribute="title" type="string" to="Compile results, analyze RQ2"/>
+    </change>
+    <change idref="t23" to="t-1" to-position="15" resolved="yes">
+      <change idref="t23" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t23" attribute="resourceLeveledDate" type="date" to="2018-08-05T18:00:00.000Z"/>
+      <change idref="t23" attribute="title" type="string" to="Manually review RQ3"/>
+    </change>
+    <change idref="t28" to="t-1" to-position="16" resolved="yes">
+      <change idref="t28" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t28" attribute="resourceLeveledDate" type="date" to="2018-08-09T00:00:00.000Z"/>
+      <change idref="t28" attribute="title" type="string" to="Compile results, analyze RQ3"/>
+    </change>
+    <change idref="t1" attribute="effort" type="real" from="72000" to="14400" resolved="yes"/>
+    <change idref="t1" attribute="resourceLeveledDate" type="date" from="2018-06-19T00:00:00.000Z" to="2018-06-23T15:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="resourceLeveledDate" type="date" from="2018-06-26T00:00:00.000Z" to="2018-06-23T20:00:00.000Z" resolved="yes"/>
+    <change idref="t6" attribute="resourceLeveledDate" type="date" from="2018-07-03T00:00:00.000Z" to="2018-06-30T20:00:00.000Z" resolved="yes"/>
+    <change idref="t7" attribute="resourceLeveledDate" type="date" from="2018-07-10T00:00:00.000Z" to="2018-07-07T20:00:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="resourceLeveledDate" type="date" from="2018-07-17T00:00:00.000Z" to="2018-07-14T20:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="resourceLeveledDate" type="date" from="2018-06-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" from="2018-07-10T00:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-24T00:00:00.000Z" to="2018-07-21T20:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-24T00:00:00.000Z" resolved="yes"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-24T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:09:40.193Z" timestamp="2018-06-14T03:09:40.193Z">
+    <change idref="t1" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-23T05:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="72000" to="14400" resolved="yes"/>
+    <change idref="t4" attribute="resourceLeveledDate" type="date" from="2018-06-23T20:00:00.000Z" to="2018-07-01T18:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-29T05:00:00.000Z" resolved="yes"/>
+    <change idref="t6" attribute="effort" type="real" from="72000" to="14400" resolved="yes"/>
+    <change idref="t6" attribute="resourceLeveledDate" type="date" from="2018-06-30T20:00:00.000Z" to="2018-07-03T00:00:00.000Z" resolved="yes"/>
+    <change idref="t7" attribute="internalPrerequisitesString" type="string" from="6FS" to="6FS, 28FS" resolved="yes"/>
+    <change idref="t7" attribute="effort" type="real" from="72000" to="14400" resolved="yes"/>
+    <change idref="t7" attribute="resourceLeveledDate" type="date" from="2018-07-07T20:00:00.000Z" to="2018-07-10T00:00:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="internalPrerequisitesString" type="string" from="7FS, 10FS" to="7FS, 10FS, 26FS, 27FS" resolved="yes"/>
+    <change idref="t8" attribute="effort" type="real" from="72000" to="14400" resolved="yes"/>
+    <change idref="t8" attribute="resourceLeveledDate" type="date" from="2018-07-14T20:00:00.000Z" to="2018-07-21T20:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="internalPrerequisitesString" type="string" from="1FS" to="1FS, 25FS" resolved="yes"/>
+    <change idref="t9" attribute="effort" type="real" from="72000" to="43200" resolved="yes"/>
+    <change idref="t9" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-27T05:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="resourceLeveledDate" type="date" to="2018-06-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="effort" type="real" from="72000" to="43200" resolved="yes"/>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" to="2018-07-12T00:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="effort" type="real" from="72000" to="14400" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-21T20:00:00.000Z" to="2018-07-28T20:00:00.000Z" resolved="yes"/>
+    <change idref="t13" attribute="effort" type="real" from="72000" to="57600" resolved="yes"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" to="2018-07-22T18:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-07-31T00:00:00.000Z" to="2018-07-15T18:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-08-05T18:00:00.000Z" to="2018-06-23T20:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="resourceLeveledDate" type="date" from="2018-07-28T20:00:00.000Z" to="2018-07-05T00:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-08-04T15:00:00.000Z" to="2018-07-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="internalPrerequisitesString" type="string" to="22FS" resolved="yes"/>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-08-09T00:00:00.000Z" to="2018-07-07T20:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="internalPrerequisitesString" type="string" to="23FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:12:27.367Z" timestamp="2018-06-14T03:12:27.367Z">
+    <change idref="t1" attribute="resourceLeveledDate" type="date" from="2018-06-23T15:00:00.000Z" to="2018-06-24T18:00:00.000Z" resolved="yes"/>
+    <change idref="t6" attribute="resourceLeveledDate" type="date" from="2018-07-03T00:00:00.000Z" resolved="yes"/>
+    <change idref="t7" attribute="internalPrerequisitesString" type="string" from="6FS, 28FS" to="6FS" resolved="yes"/>
+    <change idref="t8" attribute="internalPrerequisitesString" type="string" from="7FS, 10FS, 26FS, 27FS" to="7FS, 10FS" resolved="yes"/>
+    <change idref="t8" attribute="resourceLeveledDate" type="date" from="2018-07-21T20:00:00.000Z" to="2018-07-15T18:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="resourceLeveledDate" type="date" from="2018-06-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="internalPrerequisitesString" type="string" from="6FS" to="6FS, 27FS" resolved="yes"/>
+    <change idref="t11" attribute="internalPrerequisitesString" type="string" from="8FS" to="26FF, 27FF, 28FF" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-28T20:00:00.000Z" to="2018-07-08T18:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="internalPrerequisitesString" type="string" from="8FS" to="8FF" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" to="2018-07-17T00:00:00.000Z" resolved="yes"/>
+    <change idref="t13" attribute="internalPrerequisitesString" type="string" from="8FS" to="8FF" resolved="yes"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-22T18:00:00.000Z" to="2018-07-24T00:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-07-15T18:00:00.000Z" to="2018-07-03T00:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-06-23T20:00:00.000Z" to="2018-06-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="resourceLeveledDate" type="date" from="2018-07-05T00:00:00.000Z" to="2018-06-23T15:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-07-19T00:00:00.000Z" to="2018-07-07T15:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-07-07T20:00:00.000Z" to="2018-06-30T15:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:16:30.624Z" timestamp="2018-06-14T03:16:30.624Z">
+    <change idref="t1" attribute="resourceLeveledDate" type="date" from="2018-06-24T18:00:00.000Z" to="2018-06-23T15:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="resourceLeveledDate" type="date" from="2018-07-01T18:00:00.000Z" to="2018-06-30T15:00:00.000Z" resolved="yes"/>
+    <change idref="t6" attribute="resourceLeveledDate" type="date" to="2018-07-01T18:00:00.000Z" resolved="yes"/>
+    <change idref="t7" attribute="resourceLeveledDate" type="date" from="2018-07-10T00:00:00.000Z" to="2018-07-03T00:00:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="resourceLeveledDate" type="date" from="2018-07-15T18:00:00.000Z" to="2018-07-17T00:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="noLaterThanConstraintDate" type="date" from="2018-07-02T05:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="noLaterThanConstrainedTaskEnd" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t9" attribute="effort" type="real" from="43200" to="28800" resolved="yes"/>
+    <change idref="t9" attribute="noEarlierThanConstraintDate" type="date" from="2018-06-27T05:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="resourceLeveledDate" type="date" to="2018-06-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t59" to="t9" to-position="0" resolved="yes">
+      <change idref="t59" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t59" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t59" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t59" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-27T05:00:00.000Z"/>
+      <change idref="t59" attribute="noLaterThanConstraintDate" type="date" to="2018-07-02T05:00:00.000Z"/>
+      <change idref="t59" attribute="resourceLeveledDate" type="date" to="2018-06-28T00:00:00.000Z"/>
+      <change idref="t59" attribute="title" type="string" to="Milestone 1 #1"/>
+    </change>
+    <change idref="t60" to="t9" to-position="1" resolved="yes">
+      <change idref="t60" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t60" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t60" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t60" attribute="noLaterThanConstraintDate" type="date" to="2018-07-02T05:00:00.000Z"/>
+      <change idref="t60" attribute="resourceLeveledDate" type="date" to="2018-06-30T20:00:00.000Z"/>
+      <change idref="t60" attribute="title" type="string" to="Milestone 1 #2"/>
+    </change>
+    <change idref="t10" attribute="effort" type="real" from="43200" to="28800" resolved="yes"/>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" from="2018-07-12T00:00:00.000Z" to="2018-07-14T20:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-11T05:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-08T18:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-17T00:00:00.000Z" to="2018-07-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-24T00:00:00.000Z" to="2018-07-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-07-03T00:00:00.000Z" to="2018-07-08T18:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-06-26T00:00:00.000Z" to="2018-06-23T20:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="resourceLeveledDate" type="date" from="2018-06-23T15:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-18T05:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-07-07T15:00:00.000Z" to="2018-07-12T00:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-06-30T15:00:00.000Z" to="2018-07-07T15:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:19:18.392Z" timestamp="2018-06-14T03:19:18.392Z">
+    <change idref="t6" attribute="resourceLeveledDate" type="date" from="2018-07-01T18:00:00.000Z" to="2018-07-07T15:00:00.000Z" resolved="yes"/>
+    <change idref="t7" attribute="resourceLeveledDate" type="date" from="2018-07-03T00:00:00.000Z" to="2018-07-07T20:00:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="resourceLeveledDate" type="date" from="2018-07-17T00:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="internalPrerequisitesString" type="string" from="1FS, 25FS" to="1FS" resolved="yes"/>
+    <change idref="t9" attribute="resourceLeveledDate" type="date" from="2018-06-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="noLaterThanConstraintDate" type="date" to="2018-07-02T05:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-27T05:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t60" from="t9" from-position="1" resolved="yes">
+      <change idref="t60" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t60" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t60" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t60" attribute="noLaterThanConstraintDate" type="date" to="2018-07-02T05:00:00.000Z"/>
+      <change idref="t60" attribute="resourceLeveledDate" type="date" to="2018-06-30T20:00:00.000Z"/>
+      <change idref="t60" attribute="title" type="string" to="Milestone 1 #2"/>
+    </change>
+    <change idref="t59" from="t9" from-position="0" resolved="yes">
+      <change idref="t59" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t59" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t59" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t59" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-27T05:00:00.000Z"/>
+      <change idref="t59" attribute="noLaterThanConstraintDate" type="date" to="2018-07-02T05:00:00.000Z"/>
+      <change idref="t59" attribute="resourceLeveledDate" type="date" to="2018-06-28T00:00:00.000Z"/>
+      <change idref="t59" attribute="title" type="string" to="Milestone 1 #1"/>
+    </change>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" from="2018-07-14T20:00:00.000Z" to="2018-07-12T00:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="internalPrerequisitesString" type="string" from="6FS, 27FS" to="6FS" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" to="2018-07-24T00:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="noLaterThanConstraintDate" type="date" from="2018-07-30T22:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-19T00:00:00.000Z" to="2018-07-08T18:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t73" to="t12" to-position="0" resolved="yes">
+      <change idref="t73" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t73" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t73" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t73" attribute="resourceLeveledDate" type="date" to="2018-07-08T18:00:00.000Z"/>
+      <change idref="t73" attribute="title" type="string" to="Final Paper #1"/>
+    </change>
+    <change idref="t74" to="t12" to-position="1" resolved="yes">
+      <change idref="t74" attribute="effort" type="real" from="28800" to="43200"/>
+      <change idref="t74" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t74" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t74" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t74" attribute="resourceLeveledDate" type="date" to="2018-07-14T20:00:00.000Z"/>
+      <change idref="t74" attribute="title" type="string" to="Final Paper #2"/>
+    </change>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-26T00:00:00.000Z" to="2018-07-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-07-08T18:00:00.000Z" to="2018-06-23T20:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-06-23T20:00:00.000Z" to="2018-06-30T20:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-07-12T00:00:00.000Z" to="2018-06-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-07-07T15:00:00.000Z" to="2018-07-03T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:21:59.468Z" timestamp="2018-06-14T03:21:59.468Z">
+    <change idref="t6" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-06T05:00:00.000Z" resolved="yes"/>
+    <change idref="t7" attribute="resourceLeveledDate" type="date" from="2018-07-07T20:00:00.000Z" resolved="yes"/>
+    <change idref="t7" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-13T05:00:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-20T05:00:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="resourceLeveledDate" type="date" to="2018-07-21T15:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="resourceLeveledDate" type="date" to="2018-06-30T20:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" from="2018-07-12T00:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-24T00:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-08T18:00:00.000Z" to="2018-07-28T20:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t74" from="t12" from-position="1" resolved="yes">
+      <change idref="t74" attribute="effort" type="real" from="28800" to="43200"/>
+      <change idref="t74" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t74" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t74" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t74" attribute="resourceLeveledDate" type="date" to="2018-07-14T20:00:00.000Z"/>
+      <change idref="t74" attribute="title" type="string" to="Final Paper #2"/>
+    </change>
+    <change idref="t73" from="t12" from-position="0" resolved="yes">
+      <change idref="t73" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t73" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t73" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t73" attribute="resourceLeveledDate" type="date" to="2018-07-08T18:00:00.000Z"/>
+      <change idref="t73" attribute="title" type="string" to="Final Paper #1"/>
+    </change>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-19T00:00:00.000Z" to="2018-07-22T18:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-06-30T20:00:00.000Z" to="2018-06-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="noEarlierThanConstraintDate" type="date" from="2018-07-18T05:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="resourceLeveledDate" type="date" to="2018-07-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t107" to="t26" to-position="0" resolved="yes">
+      <change idref="t107" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t107" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t107" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t107" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-18T05:00:00.000Z"/>
+      <change idref="t107" attribute="resourceLeveledDate" type="date" to="2018-07-19T00:00:00.000Z"/>
+      <change idref="t107" attribute="title" type="string" to="Compile results, analyze RQ1 #1"/>
+    </change>
+    <change idref="t108" to="t26" to-position="1" resolved="yes">
+      <change idref="t108" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t108" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t108" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t108" attribute="resourceLeveledDate" type="date" to="2018-07-21T20:00:00.000Z"/>
+      <change idref="t108" attribute="title" type="string" to="Compile results, analyze RQ1 #2"/>
+    </change>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-06-26T00:00:00.000Z" to="2018-07-15T18:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:22:53.630Z" timestamp="2018-06-14T03:22:53.630Z">
+    <change idref="t7" attribute="resourceLeveledDate" type="date" from="2018-07-14T15:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="resourceLeveledDate" type="date" from="2018-06-28T00:00:00.000Z" to="2018-06-30T20:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="noLaterThanConstraintDate" type="date" to="2018-07-02T05:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-27T05:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t123" from="t9" from-position="1" resolved="yes"/>
+    <change idref="t122" from="t9" from-position="0" resolved="yes"/>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" from="2018-07-12T00:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="noLaterThanConstraintDate" type="date" to="2018-07-16T05:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-11T05:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t125" from="t10" from-position="1" resolved="yes"/>
+    <change idref="t124" from="t10" from-position="0" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-22T18:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-15T17:00:00.000Z" to="2018-07-28T20:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t129" from="t12" from-position="1" resolved="yes"/>
+    <change idref="t128" from="t12" from-position="0" resolved="yes"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" to="2018-07-22T18:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-07-03T00:00:00.000Z" to="2018-06-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-06-23T15:00:00.000Z" to="2018-07-15T18:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t127" from="t27" from-position="1" resolved="yes"/>
+    <change idref="t126" from="t27" from-position="0" resolved="yes"/>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-07-07T20:00:00.000Z" to="2018-07-03T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:25:33.121Z" timestamp="2018-06-14T03:25:33.121Z">
+    <change idref="t1" attribute="effort" type="real" from="14400" to="7200" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="14400" to="7200" resolved="yes"/>
+    <change idref="t6" attribute="effort" type="real" from="14400" to="7200" resolved="yes"/>
+    <change idref="t7" attribute="effort" type="real" from="14400" to="7200" resolved="yes"/>
+    <change idref="t8" attribute="resourceLeveledDate" type="date" from="2018-07-21T15:00:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="effort" type="real" from="14400" to="7200" resolved="yes"/>
+    <change idref="t9" attribute="effort" type="real" from="28800" to="21600" resolved="yes"/>
+    <change idref="t9" attribute="resourceLeveledDate" type="date" from="2018-06-28T00:00:00.000Z" to="2018-07-01T15:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="noLaterThanConstraintDate" type="date" to="2018-07-02T05:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="noEarlierThanConstraintDate" type="date" to="2018-06-27T05:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t131" from="t9" from-position="1" resolved="yes"/>
+    <change idref="t130" from="t9" from-position="0" resolved="yes"/>
+    <change idref="t10" attribute="effort" type="real" from="28800" to="21600" resolved="yes"/>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" from="2018-07-12T00:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="noLaterThanConstraintDate" type="date" to="2018-07-16T05:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-11T05:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t133" from="t10" from-position="1" resolved="yes"/>
+    <change idref="t132" from="t10" from-position="0" resolved="yes"/>
+    <change idref="t11" attribute="effort" type="real" from="14400" to="7200" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-22T18:00:00.000Z" to="2018-07-28T18:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-15T17:00:00.000Z" to="2018-07-14T18:00:00.000Z" resolved="yes"/>
+    <change idref="t137" from="t12" from-position="1" resolved="yes"/>
+    <change idref="t136" from="t12" from-position="0" resolved="yes"/>
+    <change idref="t190" to="t12" to-position="0" resolved="yes">
+      <change idref="t190" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t190" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t190" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t190" attribute="resourceLeveledDate" type="date" to="2018-07-14T18:00:00.000Z"/>
+      <change idref="t190" attribute="title" type="string" to="Final Paper #1"/>
+    </change>
+    <change idref="t191" to="t12" to-position="1" resolved="yes">
+      <change idref="t191" attribute="effort" type="real" from="28800" to="43200"/>
+      <change idref="t191" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t191" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t191" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t191" attribute="resourceLeveledDate" type="date" to="2018-07-20T00:00:00.000Z"/>
+      <change idref="t191" attribute="title" type="string" to="Final Paper #2"/>
+    </change>
+    <change idref="t13" attribute="effort" type="real" from="57600" to="28800" resolved="yes"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" to="2018-07-22T20:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-06-23T20:00:00.000Z" to="2018-06-23T18:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-07-03T00:00:00.000Z" to="2018-07-15T20:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
+    <change idref="t26" attribute="resourceLeveledDate" type="date" from="2018-07-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-18T05:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t108" from="t26" from-position="1" resolved="yes">
+      <change idref="t108" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t108" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t108" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t108" attribute="resourceLeveledDate" type="date" to="2018-07-21T20:00:00.000Z"/>
+      <change idref="t108" attribute="title" type="string" to="Compile results, analyze RQ1 #2"/>
+    </change>
+    <change idref="t107" from="t26" from-position="0" resolved="yes">
+      <change idref="t107" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t107" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t107" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t107" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-18T05:00:00.000Z"/>
+      <change idref="t107" attribute="resourceLeveledDate" type="date" to="2018-07-19T00:00:00.000Z"/>
+      <change idref="t107" attribute="title" type="string" to="Compile results, analyze RQ1 #1"/>
+    </change>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-06-23T15:00:00.000Z" to="2018-06-24T15:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t135" from="t27" from-position="1" resolved="yes"/>
+    <change idref="t134" from="t27" from-position="0" resolved="yes"/>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-07-07T20:00:00.000Z" to="2018-06-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t188" to="t28" to-position="0" resolved="yes">
+      <change idref="t188" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t188" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t188" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t188" attribute="resourceLeveledDate" type="date" to="2018-07-18T00:00:00.000Z"/>
+      <change idref="t188" attribute="title" type="string" to="Compile results, analyze RQ3 #1"/>
+    </change>
+    <change idref="t189" to="t28" to-position="1" resolved="yes">
+      <change idref="t189" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t189" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t189" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t189" attribute="resourceLeveledDate" type="date" to="2018-07-27T00:00:00.000Z"/>
+      <change idref="t189" attribute="title" type="string" to="Compile results, analyze RQ3 #2"/>
+    </change>
+    <change idref="t108" attribute="title" type="string" from="Compile results, analyze RQ1 #2" to="(null) #1" resolved="yes"/>
+    <change idref="t108" attribute="staticCost" type="real" from="0" to="0" resolved="yes"/>
+    <change idref="t108" attribute="resourceLeveledDate" type="date" from="2018-07-21T20:00:00.000Z" to="2018-07-21T18:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:28:23.792Z" timestamp="2018-06-14T03:28:23.792Z">
+    <change idref="t1" attribute="effort" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t6" attribute="effort" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t7" attribute="effort" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t8" attribute="effort" type="real" from="7200" to="3600" resolved="yes"/>
+    <change idref="t9" attribute="resourceLeveledDate" type="date" from="2018-07-01T15:00:00.000Z" to="2018-06-28T00:00:00.000Z" resolved="yes"/>
+    <change idref="t9" attribute="effort" type="real" from="21600" to="7200" resolved="yes"/>
+    <change idref="t10" attribute="effort" type="real" from="21600" to="7200" resolved="yes"/>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" to="2018-07-12T00:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-28T18:00:00.000Z" to="2018-07-24T01:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-14T18:00:00.000Z" to="2018-07-14T16:00:00.000Z" resolved="yes"/>
+    <change idref="t191" from="t12" from-position="1" resolved="yes">
+      <change idref="t191" attribute="effort" type="real" from="28800" to="43200"/>
+      <change idref="t191" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t191" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t191" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t191" attribute="resourceLeveledDate" type="date" to="2018-07-20T00:00:00.000Z"/>
+      <change idref="t191" attribute="title" type="string" to="Final Paper #2"/>
+    </change>
+    <change idref="t190" from="t12" from-position="0" resolved="yes">
+      <change idref="t190" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t190" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t190" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t190" attribute="resourceLeveledDate" type="date" to="2018-07-14T18:00:00.000Z"/>
+      <change idref="t190" attribute="title" type="string" to="Final Paper #1"/>
+    </change>
+    <change idref="t237" to="t12" to-position="0" resolved="yes">
+      <change idref="t237" attribute="effort" type="real" from="28800" to="46800"/>
+      <change idref="t237" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t237" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t237" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t237" attribute="resourceLeveledDate" type="date" to="2018-07-14T16:00:00.000Z"/>
+      <change idref="t237" attribute="title" type="string" to="Final Paper #1"/>
+    </change>
+    <change idref="t238" to="t12" to-position="1" resolved="yes">
+      <change idref="t238" attribute="effort" type="real" from="28800" to="25200"/>
+      <change idref="t238" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t238" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t238" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t238" attribute="resourceLeveledDate" type="date" to="2018-07-21T19:00:00.000Z"/>
+      <change idref="t238" attribute="title" type="string" to="Final Paper #2"/>
+    </change>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-22T20:00:00.000Z" to="2018-07-29T19:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-06-23T18:00:00.000Z" to="2018-06-23T16:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-07-15T20:00:00.000Z" to="2018-07-18T00:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-06-24T15:00:00.000Z" to="2018-06-23T21:00:00.000Z" resolved="yes"/>
+    <change idref="t189" from="t28" from-position="1" resolved="yes">
+      <change idref="t189" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t189" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t189" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t189" attribute="resourceLeveledDate" type="date" to="2018-07-27T00:00:00.000Z"/>
+      <change idref="t189" attribute="title" type="string" to="Compile results, analyze RQ3 #2"/>
+    </change>
+    <change idref="t188" from="t28" from-position="0" resolved="yes">
+      <change idref="t188" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t188" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t188" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t188" attribute="resourceLeveledDate" type="date" to="2018-07-18T00:00:00.000Z"/>
+      <change idref="t188" attribute="title" type="string" to="Compile results, analyze RQ3 #1"/>
+    </change>
+    <change idref="t235" to="t28" to-position="0" resolved="yes">
+      <change idref="t235" attribute="effort" type="real" from="28800" to="18000"/>
+      <change idref="t235" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t235" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t235" attribute="resourceLeveledDate" type="date" to="2018-07-20T00:00:00.000Z"/>
+      <change idref="t235" attribute="title" type="string" to="Compile results, analyze RQ3 #1"/>
+    </change>
+    <change idref="t236" to="t28" to-position="1" resolved="yes">
+      <change idref="t236" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t236" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t236" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t236" attribute="resourceLeveledDate" type="date" to="2018-07-22T20:00:00.000Z"/>
+      <change idref="t236" attribute="title" type="string" to="Compile results, analyze RQ3 #2"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:34:27.360Z" timestamp="2018-06-14T03:34:27.360Z">
+    <change idref="t1" attribute="resourceLeveledDate" type="date" from="2018-06-23T15:00:00.000Z" to="2018-06-24T15:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="resourceLeveledDate" type="date" from="2018-06-30T15:00:00.000Z" to="2018-07-01T15:00:00.000Z" resolved="yes"/>
+    <change idref="t6" attribute="resourceLeveledDate" type="date" from="2018-07-07T15:00:00.000Z" to="2018-07-08T15:00:00.000Z" resolved="yes"/>
+    <change idref="t7" attribute="resourceLeveledDate" type="date" from="2018-07-14T15:00:00.000Z" to="2018-07-15T15:00:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="resourceLeveledDate" type="date" to="2018-07-22T15:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-24T01:00:00.000Z" to="2018-07-22T16:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-14T16:00:00.000Z" to="2018-07-12T02:00:00.000Z" resolved="yes"/>
+    <change idref="t245" to="t12" to-position="1" resolved="yes">
+      <change idref="t245" attribute="effort" type="real" from="28800" to="36000"/>
+      <change idref="t245" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t245" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t245" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t245" attribute="resourceLeveledDate" type="date" to="2018-07-15T16:00:00.000Z"/>
+      <change idref="t245" attribute="title" type="string" to="Final Paper #2"/>
+    </change>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-29T19:00:00.000Z" to="2018-07-25T02:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-06-23T16:00:00.000Z" to="2018-06-24T16:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-07-18T00:00:00.000Z" to="2018-07-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t25" attribute="resourceLeveledDate" type="date" from="2018-06-21T00:00:00.000Z" to="2018-06-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="resourceLeveledDate" type="date" to="2018-07-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-06-23T21:00:00.000Z" to="2018-06-24T21:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t241" to="t27" to-position="0" resolved="yes">
+      <change idref="t241" attribute="effort" type="real" from="28800" to="18000"/>
+      <change idref="t241" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t241" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t241" attribute="resourceLeveledDate" type="date" to="2018-06-24T21:00:00.000Z"/>
+      <change idref="t241" attribute="title" type="string" to="Compile results, analyze RQ2 #1"/>
+    </change>
+    <change idref="t242" to="t27" to-position="1" resolved="yes">
+      <change idref="t242" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t242" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t242" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t242" attribute="resourceLeveledDate" type="date" to="2018-06-28T02:00:00.000Z"/>
+      <change idref="t242" attribute="title" type="string" to="Compile results, analyze RQ2 #2"/>
+    </change>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-06-21T00:00:00.000Z" to="2018-07-01T21:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t236" from="t28" from-position="1" resolved="yes">
+      <change idref="t236" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t236" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t236" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t236" attribute="resourceLeveledDate" type="date" to="2018-07-22T20:00:00.000Z"/>
+      <change idref="t236" attribute="title" type="string" to="Compile results, analyze RQ3 #2"/>
+    </change>
+    <change idref="t235" from="t28" from-position="0" resolved="yes">
+      <change idref="t235" attribute="effort" type="real" from="28800" to="18000"/>
+      <change idref="t235" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t235" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t235" attribute="resourceLeveledDate" type="date" to="2018-07-20T00:00:00.000Z"/>
+      <change idref="t235" attribute="title" type="string" to="Compile results, analyze RQ3 #1"/>
+    </change>
+    <change idref="t237" attribute="effort" type="real" from="46800" to="10800" resolved="yes"/>
+    <change idref="t237" attribute="resourceLeveledDate" type="date" from="2018-07-14T16:00:00.000Z" to="2018-07-12T02:00:00.000Z" resolved="yes"/>
+    <change idref="t238" attribute="title" type="string" from="Final Paper #2" to="Final Paper #3" resolved="yes"/>
+    <change idref="t238" attribute="resourceLeveledDate" type="date" from="2018-07-21T19:00:00.000Z" to="2018-07-22T19:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:36:35.804Z" timestamp="2018-06-14T03:36:35.804Z">
+    <change idref="t8" attribute="resourceLeveledDate" type="date" from="2018-07-22T15:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-22T16:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-12T02:00:00.000Z" to="2018-07-27T02:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t238" from="t12" from-position="2" resolved="yes">
+      <change idref="t238" attribute="effort" type="real" from="28800" to="25200"/>
+      <change idref="t238" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t238" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t238" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t238" attribute="resourceLeveledDate" type="date" to="2018-07-22T19:00:00.000Z"/>
+      <change idref="t238" attribute="title" type="string" to="Final Paper #3"/>
+    </change>
+    <change idref="t245" from="t12" from-position="1" resolved="yes">
+      <change idref="t245" attribute="effort" type="real" from="28800" to="36000"/>
+      <change idref="t245" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t245" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t245" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t245" attribute="resourceLeveledDate" type="date" to="2018-07-15T16:00:00.000Z"/>
+      <change idref="t245" attribute="title" type="string" to="Final Paper #2"/>
+    </change>
+    <change idref="t237" from="t12" from-position="0" resolved="yes">
+      <change idref="t237" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t237" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t237" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t237" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t237" attribute="resourceLeveledDate" type="date" to="2018-07-12T02:00:00.000Z"/>
+      <change idref="t237" attribute="title" type="string" to="Final Paper #1"/>
+    </change>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-25T02:00:00.000Z" to="2018-07-18T02:00:00.000Z" resolved="yes"/>
+    <change idref="t21" attribute="effort" type="real" from="14400" to="21600" resolved="yes"/>
+    <change idref="t22" attribute="effort" type="real" from="14400" to="28800" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-06-24T16:00:00.000Z" to="2018-07-24T00:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-07-01T16:00:00.000Z" to="2018-06-22T01:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t275" to="t23" to-position="0" resolved="yes">
+      <change idref="t275" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t275" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t275" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t275" attribute="resourceLeveledDate" type="date" to="2018-06-22T01:00:00.000Z"/>
+      <change idref="t275" attribute="title" type="string" to="Manually review RQ3 #1"/>
+    </change>
+    <change idref="t276" to="t23" to-position="1" resolved="yes">
+      <change idref="t276" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t276" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t276" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t276" attribute="resourceLeveledDate" type="date" to="2018-06-24T16:00:00.000Z"/>
+      <change idref="t276" attribute="title" type="string" to="Manually review RQ3 #2"/>
+    </change>
+    <change idref="t25" attribute="resourceLeveledDate" type="date" from="2018-06-20T02:00:00.000Z" to="2018-06-21T00:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="noEarlierThanConstraintDate" type="date" from="2018-07-18T05:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="resourceLeveledDate" type="date" from="2018-07-19T00:00:00.000Z" to="2018-07-26T03:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t273" to="t26" to-position="0" resolved="yes">
+      <change idref="t273" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t273" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t273" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t273" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-18T05:00:00.000Z"/>
+      <change idref="t273" attribute="resourceLeveledDate" type="date" to="2018-07-27T00:00:00.000Z"/>
+      <change idref="t273" attribute="title" type="string" to="Compile results, analyze RQ1 #1"/>
+    </change>
+    <change idref="t274" to="t26" to-position="1" resolved="yes">
+      <change idref="t274" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t274" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t274" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t274" attribute="title" type="string" to="Compile results, analyze RQ1 #2"/>
+    </change>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-06-24T21:00:00.000Z" to="2018-07-25T01:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t242" from="t27" from-position="1" resolved="yes">
+      <change idref="t242" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t242" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t242" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t242" attribute="resourceLeveledDate" type="date" to="2018-06-28T02:00:00.000Z"/>
+      <change idref="t242" attribute="title" type="string" to="Compile results, analyze RQ2 #2"/>
+    </change>
+    <change idref="t241" from="t27" from-position="0" resolved="yes">
+      <change idref="t241" attribute="effort" type="real" from="28800" to="18000"/>
+      <change idref="t241" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t241" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t241" attribute="resourceLeveledDate" type="date" to="2018-06-24T21:00:00.000Z"/>
+      <change idref="t241" attribute="title" type="string" to="Compile results, analyze RQ2 #1"/>
+    </change>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-07-01T21:00:00.000Z" to="2018-06-20T01:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t277" to="t28" to-position="0" resolved="yes">
+      <change idref="t277" attribute="effort" type="real" from="28800" to="21600"/>
+      <change idref="t277" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t277" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t277" attribute="resourceLeveledDate" type="date" to="2018-06-26T00:00:00.000Z"/>
+      <change idref="t277" attribute="title" type="string" to="Compile results, analyze RQ3 #1"/>
+    </change>
+    <change idref="t278" to="t28" to-position="1" resolved="yes">
+      <change idref="t278" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t278" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t278" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t278" attribute="resourceLeveledDate" type="date" to="2018-06-28T02:00:00.000Z"/>
+      <change idref="t278" attribute="title" type="string" to="Compile results, analyze RQ3 #2"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:37:18.105Z" timestamp="2018-06-14T03:37:18.105Z">
+    <change idref="t8" attribute="resourceLeveledDate" type="date" to="2018-07-22T15:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" to="2018-07-20T01:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="noLaterThanConstraintDate" type="date" from="2018-07-30T22:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-27T02:00:00.000Z" to="2018-07-12T02:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t284" to="t12" to-position="0" resolved="yes">
+      <change idref="t284" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t284" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t284" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t284" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t284" attribute="resourceLeveledDate" type="date" to="2018-07-12T02:00:00.000Z"/>
+      <change idref="t284" attribute="title" type="string" to="Final Paper #1"/>
+    </change>
+    <change idref="t285" to="t12" to-position="1" resolved="yes">
+      <change idref="t285" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t285" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t285" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t285" attribute="resourceLeveledDate" type="date" to="2018-07-15T16:00:00.000Z"/>
+      <change idref="t285" attribute="title" type="string" to="Final Paper #2"/>
+    </change>
+    <change idref="t286" to="t12" to-position="2" resolved="yes">
+      <change idref="t286" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t286" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t286" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t286" attribute="resourceLeveledDate" type="date" to="2018-07-22T16:00:00.000Z"/>
+      <change idref="t286" attribute="title" type="string" to="Final Paper #3"/>
+    </change>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-18T02:00:00.000Z" to="2018-07-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-07-24T00:00:00.000Z" to="2018-06-22T01:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t279" to="t22" to-position="0" resolved="yes">
+      <change idref="t279" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t279" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t279" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t279" attribute="resourceLeveledDate" type="date" to="2018-06-22T01:00:00.000Z"/>
+      <change idref="t279" attribute="title" type="string" to="Manually review RQ2 #1"/>
+    </change>
+    <change idref="t280" to="t22" to-position="1" resolved="yes">
+      <change idref="t280" attribute="effort" type="real" from="28800" to="21600"/>
+      <change idref="t280" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t280" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t280" attribute="resourceLeveledDate" type="date" to="2018-06-24T16:00:00.000Z"/>
+      <change idref="t280" attribute="title" type="string" to="Manually review RQ2 #2"/>
+    </change>
+    <change idref="t23" attribute="effort" type="real" from="14400" to="39600" resolved="yes"/>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-06-22T01:00:00.000Z" to="2018-07-03T00:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t276" from="t23" from-position="1" resolved="yes">
+      <change idref="t276" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t276" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t276" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t276" attribute="resourceLeveledDate" type="date" to="2018-06-24T16:00:00.000Z"/>
+      <change idref="t276" attribute="title" type="string" to="Manually review RQ3 #2"/>
+    </change>
+    <change idref="t275" from="t23" from-position="0" resolved="yes">
+      <change idref="t275" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t275" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t275" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t275" attribute="resourceLeveledDate" type="date" to="2018-06-22T01:00:00.000Z"/>
+      <change idref="t275" attribute="title" type="string" to="Manually review RQ3 #1"/>
+    </change>
+    <change idref="t26" attribute="resourceLeveledDate" type="date" from="2018-07-26T03:00:00.000Z" to="2018-07-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-18T05:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t274" from="t26" from-position="1" resolved="yes">
+      <change idref="t274" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t274" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t274" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t274" attribute="title" type="string" to="Compile results, analyze RQ1 #2"/>
+    </change>
+    <change idref="t273" from="t26" from-position="0" resolved="yes">
+      <change idref="t273" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t273" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t273" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t273" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-18T05:00:00.000Z"/>
+      <change idref="t273" attribute="resourceLeveledDate" type="date" to="2018-07-27T00:00:00.000Z"/>
+      <change idref="t273" attribute="title" type="string" to="Compile results, analyze RQ1 #1"/>
+    </change>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-07-25T01:00:00.000Z" to="2018-06-21T02:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t281" to="t27" to-position="0" resolved="yes">
+      <change idref="t281" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t281" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t281" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t281" attribute="resourceLeveledDate" type="date" to="2018-06-27T01:00:00.000Z"/>
+      <change idref="t281" attribute="title" type="string" to="Compile results, analyze RQ2 #1"/>
+    </change>
+    <change idref="t282" to="t27" to-position="1" resolved="yes">
+      <change idref="t282" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t282" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t282" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t282" attribute="resourceLeveledDate" type="date" to="2018-06-28T02:00:00.000Z"/>
+      <change idref="t282" attribute="title" type="string" to="Compile results, analyze RQ2 #2"/>
+    </change>
+    <change idref="t283" to="t27" to-position="2" resolved="yes">
+      <change idref="t283" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t283" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t283" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t283" attribute="resourceLeveledDate" type="date" to="2018-07-01T16:00:00.000Z"/>
+      <change idref="t283" attribute="title" type="string" to="Compile results, analyze RQ2 #3"/>
+    </change>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-06-20T01:00:00.000Z" to="2018-07-08T16:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t278" from="t28" from-position="1" resolved="yes">
+      <change idref="t278" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t278" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t278" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t278" attribute="resourceLeveledDate" type="date" to="2018-06-28T02:00:00.000Z"/>
+      <change idref="t278" attribute="title" type="string" to="Compile results, analyze RQ3 #2"/>
+    </change>
+    <change idref="t277" from="t28" from-position="0" resolved="yes">
+      <change idref="t277" attribute="effort" type="real" from="28800" to="21600"/>
+      <change idref="t277" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t277" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t277" attribute="resourceLeveledDate" type="date" to="2018-06-26T00:00:00.000Z"/>
+      <change idref="t277" attribute="title" type="string" to="Compile results, analyze RQ3 #1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:39:18.730Z" timestamp="2018-06-14T03:39:18.730Z">
+    <change idref="t12" attribute="internalPrerequisitesString" type="string" from="8FF" to="8FF, 11FF" resolved="yes"/>
+    <change idref="t286" from="t12" from-position="2" resolved="yes">
+      <change idref="t286" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t286" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t286" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t286" attribute="resourceLeveledDate" type="date" to="2018-07-22T16:00:00.000Z"/>
+      <change idref="t286" attribute="title" type="string" to="Final Paper #3"/>
+    </change>
+    <change idref="t285" from="t12" from-position="1" resolved="yes">
+      <change idref="t285" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t285" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t285" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t285" attribute="resourceLeveledDate" type="date" to="2018-07-15T16:00:00.000Z"/>
+      <change idref="t285" attribute="title" type="string" to="Final Paper #2"/>
+    </change>
+    <change idref="t284" from="t12" from-position="0" resolved="yes">
+      <change idref="t284" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t284" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t284" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t284" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t284" attribute="resourceLeveledDate" type="date" to="2018-07-12T02:00:00.000Z"/>
+      <change idref="t284" attribute="title" type="string" to="Final Paper #1"/>
+    </change>
+    <change idref="t317" to="t12" to-position="0" resolved="yes">
+      <change idref="t317" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t317" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t317" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t317" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t317" attribute="resourceLeveledDate" type="date" to="2018-07-12T02:00:00.000Z"/>
+      <change idref="t317" attribute="title" type="string" to="Final Paper #1"/>
+    </change>
+    <change idref="t318" to="t12" to-position="1" resolved="yes">
+      <change idref="t318" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t318" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t318" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t318" attribute="resourceLeveledDate" type="date" to="2018-07-15T16:00:00.000Z"/>
+      <change idref="t318" attribute="title" type="string" to="Final Paper #2"/>
+    </change>
+    <change idref="t319" to="t12" to-position="2" resolved="yes">
+      <change idref="t319" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t319" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t319" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t319" attribute="resourceLeveledDate" type="date" to="2018-07-22T16:00:00.000Z"/>
+      <change idref="t319" attribute="title" type="string" to="Final Paper #3"/>
+    </change>
+    <change idref="t13" attribute="internalPrerequisitesString" type="string" from="8FF" to="8FF, 11FF" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-06-22T01:00:00.000Z" to="2018-06-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t280" from="t22" from-position="1" resolved="yes">
+      <change idref="t280" attribute="effort" type="real" from="28800" to="21600"/>
+      <change idref="t280" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t280" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t280" attribute="resourceLeveledDate" type="date" to="2018-06-24T16:00:00.000Z"/>
+      <change idref="t280" attribute="title" type="string" to="Manually review RQ2 #2"/>
+    </change>
+    <change idref="t279" from="t22" from-position="0" resolved="yes">
+      <change idref="t279" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t279" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t279" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t279" attribute="resourceLeveledDate" type="date" to="2018-06-22T01:00:00.000Z"/>
+      <change idref="t279" attribute="title" type="string" to="Manually review RQ2 #1"/>
+    </change>
+    <change idref="t312" to="t22" to-position="0" resolved="yes">
+      <change idref="t312" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t312" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t312" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t312" attribute="resourceLeveledDate" type="date" to="2018-06-22T01:00:00.000Z"/>
+      <change idref="t312" attribute="title" type="string" to="Manually review RQ2 #1"/>
+    </change>
+    <change idref="t313" to="t22" to-position="1" resolved="yes">
+      <change idref="t313" attribute="effort" type="real" from="28800" to="21600"/>
+      <change idref="t313" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t313" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t313" attribute="resourceLeveledDate" type="date" to="2018-06-24T16:00:00.000Z"/>
+      <change idref="t313" attribute="title" type="string" to="Manually review RQ2 #2"/>
+    </change>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-06-21T02:00:00.000Z" to="2018-06-27T01:00:00.000Z" resolved="yes"/>
+    <change idref="t283" from="t27" from-position="2" resolved="yes">
+      <change idref="t283" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t283" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t283" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t283" attribute="resourceLeveledDate" type="date" to="2018-07-01T16:00:00.000Z"/>
+      <change idref="t283" attribute="title" type="string" to="Compile results, analyze RQ2 #3"/>
+    </change>
+    <change idref="t282" from="t27" from-position="1" resolved="yes">
+      <change idref="t282" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t282" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t282" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t282" attribute="resourceLeveledDate" type="date" to="2018-06-28T02:00:00.000Z"/>
+      <change idref="t282" attribute="title" type="string" to="Compile results, analyze RQ2 #2"/>
+    </change>
+    <change idref="t281" from="t27" from-position="0" resolved="yes">
+      <change idref="t281" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t281" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t281" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t281" attribute="resourceLeveledDate" type="date" to="2018-06-27T01:00:00.000Z"/>
+      <change idref="t281" attribute="title" type="string" to="Compile results, analyze RQ2 #1"/>
+    </change>
+    <change idref="t314" to="t27" to-position="0" resolved="yes">
+      <change idref="t314" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t314" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t314" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t314" attribute="resourceLeveledDate" type="date" to="2018-06-27T01:00:00.000Z"/>
+      <change idref="t314" attribute="title" type="string" to="Compile results, analyze RQ2 #1"/>
+    </change>
+    <change idref="t315" to="t27" to-position="1" resolved="yes">
+      <change idref="t315" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t315" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t315" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t315" attribute="resourceLeveledDate" type="date" to="2018-06-28T02:00:00.000Z"/>
+      <change idref="t315" attribute="title" type="string" to="Compile results, analyze RQ2 #2"/>
+    </change>
+    <change idref="t316" to="t27" to-position="2" resolved="yes">
+      <change idref="t316" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t316" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t316" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t316" attribute="resourceLeveledDate" type="date" to="2018-07-01T16:00:00.000Z"/>
+      <change idref="t316" attribute="title" type="string" to="Compile results, analyze RQ2 #3"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T03:45:16.940Z" timestamp="2018-06-14T03:45:16.940Z">
+    <change idref="t554" to="t-1" to-position="17" resolved="yes">
+      <change idref="t554" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t554" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t554" attribute="title" type="string" to="End of Weeks"/>
+    </change>
+    <change idref="t12" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t319" from="t12" from-position="3" resolved="yes">
+      <change idref="t319" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t319" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t319" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t319" attribute="resourceLeveledDate" type="date" to="2018-08-02T02:00:00.000Z"/>
+      <change idref="t319" attribute="title" type="string" to="Final Paper #4"/>
+    </change>
+    <change idref="t318" from="t12" from-position="2" resolved="yes">
+      <change idref="t318" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t318" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t318" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t318" attribute="title" type="string" to="Final Paper #3"/>
+    </change>
+    <change idref="t327" from="t12" from-position="1" resolved="yes"/>
+    <change idref="t317" from="t12" from-position="0" resolved="yes">
+      <change idref="t317" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t317" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t317" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t317" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T22:00:00.000Z"/>
+      <change idref="t317" attribute="resourceLeveledDate" type="date" to="2018-07-27T02:00:00.000Z"/>
+      <change idref="t317" attribute="title" type="string" to="Final Paper #1"/>
+    </change>
+    <change idref="t22" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t321" from="t22" from-position="2" resolved="yes"/>
+    <change idref="t313" from="t22" from-position="1" resolved="yes">
+      <change idref="t313" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t313" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t313" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t313" attribute="resourceLeveledDate" type="date" to="2018-07-26T01:00:00.000Z"/>
+      <change idref="t313" attribute="title" type="string" to="Manually review RQ2 #2"/>
+    </change>
+    <change idref="t312" from="t22" from-position="0" resolved="yes">
+      <change idref="t312" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t312" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t312" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t312" attribute="resourceLeveledDate" type="date" to="2018-07-25T02:00:00.000Z"/>
+      <change idref="t312" attribute="title" type="string" to="Manually review RQ2 #1"/>
+    </change>
+    <change idref="t324" from="t23" from-position="2" resolved="yes"/>
+    <change idref="t323" from="t23" from-position="1" resolved="yes"/>
+    <change idref="t322" from="t23" from-position="0" resolved="yes"/>
+    <change idref="t602" to="t23" to-position="0" resolved="yes">
+      <change idref="t602" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t602" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t602" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t602" attribute="resourceLeveledDate" type="date" to="2018-06-22T01:00:00.000Z"/>
+      <change idref="t602" attribute="title" type="string" to="Manually review RQ3 #1"/>
+    </change>
+    <change idref="t603" to="t23" to-position="1" resolved="yes">
+      <change idref="t603" attribute="effort" type="real" from="28800" to="25200"/>
+      <change idref="t603" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t603" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t603" attribute="resourceLeveledDate" type="date" to="2018-06-24T16:00:00.000Z"/>
+      <change idref="t603" attribute="title" type="string" to="Manually review RQ3 #2"/>
+    </change>
+    <change idref="t604" to="t23" to-position="2" resolved="yes">
+      <change idref="t604" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t604" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t604" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t604" attribute="resourceLeveledDate" type="date" to="2018-06-28T02:00:00.000Z"/>
+      <change idref="t604" attribute="title" type="string" to="Manually review RQ3 #3"/>
+    </change>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-07-29T16:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t316" from="t27" from-position="2" resolved="yes">
+      <change idref="t316" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t316" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t316" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t316" attribute="title" type="string" to="Compile results, analyze RQ2 #3"/>
+    </change>
+    <change idref="t315" from="t27" from-position="1" resolved="yes">
+      <change idref="t315" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t315" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t315" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t315" attribute="title" type="string" to="Compile results, analyze RQ2 #2"/>
+    </change>
+    <change idref="t314" from="t27" from-position="0" resolved="yes">
+      <change idref="t314" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t314" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t314" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t314" attribute="title" type="string" to="Compile results, analyze RQ2 #1"/>
+    </change>
+    <change idref="t326" from="t28" from-position="1" resolved="yes"/>
+    <change idref="t325" from="t28" from-position="0" resolved="yes"/>
+    <change idref="t605" to="t28" to-position="0" resolved="yes">
+      <change idref="t605" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t605" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t605" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t605" attribute="resourceLeveledDate" type="date" to="2018-06-29T01:00:00.000Z"/>
+      <change idref="t605" attribute="title" type="string" to="Compile results, analyze RQ3 #1"/>
+    </change>
+    <change idref="t606" to="t28" to-position="1" resolved="yes">
+      <change idref="t606" attribute="effort" type="real" from="28800" to="21600"/>
+      <change idref="t606" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t606" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t606" attribute="resourceLeveledDate" type="date" to="2018-07-01T16:00:00.000Z"/>
+      <change idref="t606" attribute="title" type="string" to="Compile results, analyze RQ3 #2"/>
+    </change>
+    <change idref="t585" to="t554" to-position="0" resolved="yes">
+      <change idref="t585" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t585" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t585" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t585" attribute="resourceLeveledDate" type="date" to="2018-06-18T05:00:00.000Z"/>
+      <change idref="t585" attribute="startLockedDate" type="date" to="2018-06-18T05:00:00.000Z"/>
+      <change idref="t585" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t585" attribute="title" type="string" to="EOW 5"/>
+    </change>
+    <change idref="t328" to="t554" to-position="1" resolved="yes">
+      <change idref="t328" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t328" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t328" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t328" attribute="resourceLeveledDate" type="date" to="2018-06-26T00:00:00.000Z"/>
+      <change idref="t328" attribute="startLockedDate" type="date" to="2018-06-26T00:00:00.000Z"/>
+      <change idref="t328" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t328" attribute="title" type="string" to="EOW 6"/>
+    </change>
+    <change idref="t345" to="t554" to-position="2" resolved="yes">
+      <change idref="t345" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t345" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t345" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t345" attribute="resourceLeveledDate" type="date" to="2018-07-03T00:00:00.000Z"/>
+      <change idref="t345" attribute="startLockedDate" type="date" to="2018-07-03T00:00:00.000Z"/>
+      <change idref="t345" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t345" attribute="title" type="string" to="EOW 7"/>
+    </change>
+    <change idref="t362" to="t554" to-position="3" resolved="yes">
+      <change idref="t362" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t362" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t362" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t362" attribute="resourceLeveledDate" type="date" to="2018-07-10T00:00:00.000Z"/>
+      <change idref="t362" attribute="startLockedDate" type="date" to="2018-07-10T00:00:00.000Z"/>
+      <change idref="t362" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t362" attribute="title" type="string" to="EOW 8"/>
+    </change>
+    <change idref="t371" to="t554" to-position="4" resolved="yes">
+      <change idref="t371" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t371" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t371" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t371" attribute="resourceLeveledDate" type="date" to="2018-07-17T00:00:00.000Z"/>
+      <change idref="t371" attribute="startLockedDate" type="date" to="2018-07-17T00:00:00.000Z"/>
+      <change idref="t371" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t371" attribute="title" type="string" to="EOW 9"/>
+    </change>
+    <change idref="t379" to="t554" to-position="5" resolved="yes">
+      <change idref="t379" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t379" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t379" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t379" attribute="resourceLeveledDate" type="date" to="2018-07-24T00:00:00.000Z"/>
+      <change idref="t379" attribute="startLockedDate" type="date" to="2018-07-24T00:00:00.000Z"/>
+      <change idref="t379" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t379" attribute="title" type="string" to="EOW 10"/>
+    </change>
+    <change idref="t388" to="t554" to-position="6" resolved="yes">
+      <change idref="t388" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t388" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t388" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t388" attribute="resourceLeveledDate" type="date" to="2018-07-31T00:00:00.000Z"/>
+      <change idref="t388" attribute="startLockedDate" type="date" to="2018-07-31T00:00:00.000Z"/>
+      <change idref="t388" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t388" attribute="title" type="string" to="EOW 11"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T04:06:21.574Z" timestamp="2018-06-14T04:06:21.574Z">
+    <change idref="t554" from="t-1" from-position="17" resolved="yes">
+      <change idref="t554" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t554" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t554" attribute="title" type="string" to="End of Weeks"/>
+    </change>
+    <change idref="t1026" to="t-1" to-position="0" resolved="yes">
+      <change idref="t1026" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1026" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1026" attribute="title" type="string" to="Weekly Status Checks"/>
+    </change>
+    <change idref="t1028" to="t-1" to-position="1" resolved="yes">
+      <change idref="t1028" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1028" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1028" attribute="title" type="string" to="Intermediate Milestones"/>
+    </change>
+    <change idref="t1029" to="t-1" to-position="2" resolved="yes">
+      <change idref="t1029" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1029" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1029" attribute="title" type="string" to="Final Deliverables"/>
+    </change>
+    <change idref="t1031" to="t-1" to-position="3" resolved="yes">
+      <change idref="t1031" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1031" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1031" attribute="title" type="string" to="RQ1"/>
+    </change>
+    <change idref="t1032" to="t-1" to-position="4" resolved="yes">
+      <change idref="t1032" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1032" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1032" attribute="title" type="string" to="RQ2"/>
+    </change>
+    <change idref="t1033" to="t-1" to-position="5" resolved="yes">
+      <change idref="t1033" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1033" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1033" attribute="title" type="string" to="RQ3"/>
+    </change>
+    <change idref="t1" attribute="title" type="string" from="Week 1 status report" to="Weekly Status Check 1" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="3600" to="1800" resolved="yes"/>
+    <change idref="t4" attribute="title" type="string" from="Week 2 status report" to="Weekly Status Check 2" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="3600" to="1800" resolved="yes"/>
+    <change idref="t6" attribute="title" type="string" from="Week 3 status report" to="Weekly Status Check 3" resolved="yes"/>
+    <change idref="t6" attribute="effort" type="real" from="3600" to="1800" resolved="yes"/>
+    <change idref="t7" attribute="title" type="string" from="Week 4 status report" to="Weekly Status Check 4" resolved="yes"/>
+    <change idref="t7" attribute="effort" type="real" from="3600" to="1800" resolved="yes"/>
+    <change idref="t8" attribute="title" type="string" from="Week 5 status report" to="Weekly Status Check 5" resolved="yes"/>
+    <change idref="t8" attribute="resourceLeveledDate" type="date" from="2018-07-22T15:00:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="effort" type="real" from="3600" to="1800" resolved="yes"/>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" from="2018-07-12T00:00:00.000Z" to="2018-07-13T01:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="internalPrerequisitesString" type="string" from="26FF, 27FF, 28FF" to="1043FF, 1044FF, 1045FF" resolved="yes"/>
+    <change idref="t11" attribute="title" type="string" from="Final Project Materials" to="Final project deliverable" resolved="yes"/>
+    <change idref="t11" attribute="noLaterThanConstraintDate" type="date" from="2018-07-30T22:00:00.000Z" to="2018-07-30T05:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="effort" type="real" from="7200" to="5400" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-20T01:00:00.000Z" to="2018-07-22T15:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="title" type="string" from="Final Paper" to="Project paper" resolved="yes"/>
+    <change idref="t12" attribute="effort" type="real" from="72000" to="18000" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-12T02:00:00.000Z" to="2018-07-24T00:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t12" attribute="noLaterThanConstraintDate" type="date" to="2018-07-30T05:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t615" from="t12" from-position="2" resolved="yes"/>
+    <change idref="t614" from="t12" from-position="1" resolved="yes"/>
+    <change idref="t613" from="t12" from-position="0" resolved="yes"/>
+    <change idref="t13" attribute="title" type="string" from="Final Presentation" to="Project presentation" resolved="yes"/>
+    <change idref="t13" attribute="noLaterThanConstraintDate" type="date" from="2018-07-30T22:00:00.000Z" to="2018-07-30T05:00:00.000Z" resolved="yes"/>
+    <change idref="t13" attribute="effort" type="real" from="28800" to="10800" resolved="yes"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-26T00:00:00.000Z" to="2018-07-22T17:00:00.000Z" resolved="yes"/>
+    <change idref="t21" attribute="title" type="string" from="Build survey for RQ1" to="Build survey" resolved="yes"/>
+    <change idref="t21" attribute="effort" type="real" from="21600" to="32400" resolved="yes"/>
+    <change idref="t22" attribute="title" type="string" from="Manually review RQ2" to="Manual review" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-06-22T01:00:00.000Z" to="2018-07-01T16:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="internalPrerequisitesString" type="string" to="1046FS" resolved="yes"/>
+    <change idref="t22" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t609" from="t22" from-position="1" resolved="yes"/>
+    <change idref="t608" from="t22" from-position="0" resolved="yes"/>
+    <change idref="t23" attribute="title" type="string" from="Manually review RQ3" to="Manual review" resolved="yes"/>
+    <change idref="t23" attribute="effort" type="real" from="39600" to="43200" resolved="yes"/>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-06-19T00:00:00.000Z" to="2018-07-08T16:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="internalPrerequisitesString" type="string" to="1047FS" resolved="yes"/>
+    <change idref="t23" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t604" from="t23" from-position="2" resolved="yes">
+      <change idref="t604" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t604" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t604" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t604" attribute="resourceLeveledDate" type="date" to="2018-07-06T00:00:00.000Z"/>
+      <change idref="t604" attribute="title" type="string" to="Manually review RQ3 #3"/>
+    </change>
+    <change idref="t603" from="t23" from-position="1" resolved="yes">
+      <change idref="t603" attribute="effort" type="real" from="28800" to="25200"/>
+      <change idref="t603" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t603" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t603" attribute="resourceLeveledDate" type="date" to="2018-07-03T02:00:00.000Z"/>
+      <change idref="t603" attribute="title" type="string" to="Manually review RQ3 #2"/>
+    </change>
+    <change idref="t602" from="t23" from-position="0" resolved="yes">
+      <change idref="t602" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t602" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t602" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t602" attribute="resourceLeveledDate" type="date" to="2018-07-03T00:00:00.000Z"/>
+      <change idref="t602" attribute="title" type="string" to="Manually review RQ3 #1"/>
+    </change>
+    <change idref="t25" attribute="title" type="string" from="Distribute survey for RQ1" to="Distribute survey" resolved="yes"/>
+    <change idref="t25" attribute="effort" type="real" from="14400" to="21600" resolved="yes"/>
+    <change idref="t25" attribute="resourceLeveledDate" type="date" from="2018-06-21T00:00:00.000Z" to="2018-06-24T16:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="title" type="string" from="Compile results, analyze RQ1" to="Compile results, analyze" resolved="yes"/>
+    <change idref="t26" attribute="effort" type="real" from="14400" to="21600" resolved="yes"/>
+    <change idref="t27" attribute="title" type="string" from="Compile results, analyze RQ2" to="Compile results, analyze" resolved="yes"/>
+    <change idref="t27" attribute="effort" type="real" from="28800" to="21600" resolved="yes"/>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-06-21T02:00:00.000Z" to="2018-07-05T00:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t612" from="t27" from-position="2" resolved="yes"/>
+    <change idref="t611" from="t27" from-position="1" resolved="yes"/>
+    <change idref="t610" from="t27" from-position="0" resolved="yes"/>
+    <change idref="t28" attribute="title" type="string" from="Compile results, analyze RQ3" to="Compile results, analyze" resolved="yes"/>
+    <change idref="t28" attribute="effort" type="real" from="28800" to="21600" resolved="yes"/>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-07-06T02:00:00.000Z" to="2018-07-15T16:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t606" from="t28" from-position="1" resolved="yes">
+      <change idref="t606" attribute="effort" type="real" from="28800" to="25200"/>
+      <change idref="t606" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t606" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t606" attribute="resourceLeveledDate" type="date" to="2018-07-08T16:00:00.000Z"/>
+      <change idref="t606" attribute="title" type="string" to="Compile results, analyze RQ3 #2"/>
+    </change>
+    <change idref="t605" from="t28" from-position="0" resolved="yes">
+      <change idref="t605" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t605" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t605" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t605" attribute="resourceLeveledDate" type="date" to="2018-07-06T02:00:00.000Z"/>
+      <change idref="t605" attribute="title" type="string" to="Compile results, analyze RQ3 #1"/>
+    </change>
+    <change idref="t23" from="t-1" from-position="15" to="t1033" to-position="0" resolved="yes"/>
+    <change idref="t28" from="t-1" from-position="16" to="t1033" to-position="1" resolved="yes"/>
+    <change idref="t1043" to="t1033" to-position="2" resolved="yes">
+      <change idref="t1043" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1043" attribute="internalPrerequisitesString" type="string" to="28FF"/>
+      <change idref="t1043" attribute="resourceLeveledDate" type="date" to="2018-07-17T01:00:00.000Z"/>
+      <change idref="t1043" attribute="title" type="string" to="Document process and conclusion"/>
+    </change>
+    <change idref="t1047" to="t1033" to-position="3" resolved="yes">
+      <change idref="t1047" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t1047" attribute="resourceLeveledDate" type="date" to="2018-06-19T00:00:00.000Z"/>
+      <change idref="t1047" attribute="title" type="string" to="Determine criteria"/>
+    </change>
+    <change idref="t1" from="t-1" from-position="2" to="t1026" to-position="0" resolved="yes"/>
+    <change idref="t4" from="t-1" from-position="3" to="t1026" to-position="1" resolved="yes"/>
+    <change idref="t6" from="t-1" from-position="5" to="t1026" to-position="2" resolved="yes"/>
+    <change idref="t7" from="t-1" from-position="6" to="t1026" to-position="3" resolved="yes"/>
+    <change idref="t8" from="t-1" from-position="8" to="t1026" to-position="4" resolved="yes"/>
+    <change idref="t9" from="t-1" from-position="4" to="t1028" to-position="0" resolved="yes"/>
+    <change idref="t10" from="t-1" from-position="7" to="t1028" to-position="1" resolved="yes"/>
+    <change idref="t12" from="t-1" from-position="10" to="t1029" to-position="0" resolved="yes"/>
+    <change idref="t11" from="t-1" from-position="9" to="t1029" to-position="1" resolved="yes"/>
+    <change idref="t13" from="t-1" from-position="11" to="t1029" to-position="2" resolved="yes"/>
+    <change idref="t21" from="t-1" from-position="0" to="t1031" to-position="0" resolved="yes"/>
+    <change idref="t25" from="t-1" from-position="1" to="t1031" to-position="1" resolved="yes"/>
+    <change idref="t26" from="t-1" from-position="12" to="t1031" to-position="2" resolved="yes"/>
+    <change idref="t1044" to="t1031" to-position="3" resolved="yes">
+      <change idref="t1044" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1044" attribute="internalPrerequisitesString" type="string" to="26FF"/>
+      <change idref="t1044" attribute="resourceLeveledDate" type="date" to="2018-07-20T00:00:00.000Z"/>
+      <change idref="t1044" attribute="title" type="string" to="Document process and conclusions"/>
+    </change>
+    <change idref="t22" from="t-1" from-position="13" to="t1032" to-position="0" resolved="yes"/>
+    <change idref="t1046" to="t1032" to-position="1" resolved="yes">
+      <change idref="t1046" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t1046" attribute="resourceLeveledDate" type="date" to="2018-06-19T00:00:00.000Z"/>
+      <change idref="t1046" attribute="title" type="string" to="Determine criteria"/>
+    </change>
+    <change idref="t27" from="t-1" from-position="14" to="t1032" to-position="2" resolved="yes"/>
+    <change idref="t1045" to="t1032" to-position="3" resolved="yes">
+      <change idref="t1045" attribute="internalPrerequisitesString" type="string" to="27FF"/>
+      <change idref="t1045" attribute="resourceLeveledDate" type="date" to="2018-07-04T01:00:00.000Z"/>
+      <change idref="t1045" attribute="title" type="string" to="Document process and conclusions"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T04:06:47.181Z" timestamp="2018-06-14T04:06:47.181Z">
+    <change idref="t1045" attribute="effort" type="real" from="28800" to="10800" resolved="yes"/>
+    <change idref="t1045" attribute="resourceLeveledDate" type="date" from="2018-07-04T01:00:00.000Z" to="2018-07-06T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T04:07:04.238Z" timestamp="2018-06-14T04:07:04.238Z">
+    <change idref="t10" attribute="resourceLeveledDate" type="date" from="2018-07-13T01:00:00.000Z" to="2018-07-12T00:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-22T15:00:00.000Z" to="2018-07-25T01:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-24T00:00:00.000Z" to="2018-07-26T00:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-22T17:00:00.000Z" to="2018-07-27T02:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-07-08T16:00:00.000Z" to="2018-07-15T16:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="resourceLeveledDate" type="date" from="2018-07-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-07-15T16:00:00.000Z" to="2018-07-20T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1043" attribute="resourceLeveledDate" type="date" from="2018-07-17T01:00:00.000Z" to="2018-07-24T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1043" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t1044" attribute="resourceLeveledDate" type="date" from="2018-07-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t1044" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t1045" attribute="resourceLeveledDate" type="date" from="2018-07-06T00:00:00.000Z" to="2018-07-08T16:00:00.000Z" resolved="yes"/>
+    <change idref="t1045" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t1046" attribute="resourceLeveledDate" type="date" from="2018-06-19T00:00:00.000Z" to="2018-06-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t1046" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t1047" attribute="resourceLeveledDate" type="date" from="2018-06-19T00:00:00.000Z" to="2018-06-22T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1047" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T04:07:49.060Z" timestamp="2018-06-14T04:07:49.060Z">
+    <change idref="t10" attribute="resourceLeveledDate" type="date" from="2018-07-13T00:00:00.000Z" to="2018-07-12T00:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-20T02:00:00.000Z" to="2018-07-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-22T16:00:00.000Z" to="2018-07-24T00:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-25T00:00:00.000Z" to="2018-07-25T02:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-06-19T01:00:00.000Z" to="2018-06-26T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1051" from="t22" from-position="1" resolved="yes"/>
+    <change idref="t1050" from="t22" from-position="0" resolved="yes"/>
+    <change idref="t1066" to="t22" to-position="0" resolved="yes">
+      <change idref="t1066" attribute="effort" type="real" from="28800" to="18000"/>
+      <change idref="t1066" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1066" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1066" attribute="resourceLeveledDate" type="date" to="2018-06-26T01:00:00.000Z"/>
+      <change idref="t1066" attribute="title" type="string" to="Manual review #1"/>
+    </change>
+    <change idref="t1067" to="t22" to-position="1" resolved="yes">
+      <change idref="t1067" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1067" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1067" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1067" attribute="resourceLeveledDate" type="date" to="2018-06-28T02:00:00.000Z"/>
+      <change idref="t1067" attribute="title" type="string" to="Manual review #2"/>
+    </change>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-06-19T01:00:00.000Z" to="2018-07-11T02:00:00.000Z" resolved="yes"/>
+    <change idref="t1053" from="t23" from-position="1" resolved="yes"/>
+    <change idref="t1052" from="t23" from-position="0" resolved="yes"/>
+    <change idref="t1062" to="t23" to-position="0" resolved="yes">
+      <change idref="t1062" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t1062" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1062" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1062" attribute="resourceLeveledDate" type="date" to="2018-07-12T02:00:00.000Z"/>
+      <change idref="t1062" attribute="title" type="string" to="Manual review #1"/>
+    </change>
+    <change idref="t1068" to="t23" to-position="1" resolved="yes">
+      <change idref="t1068" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1068" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1068" attribute="resourceLeveledDate" type="date" to="2018-07-15T16:00:00.000Z"/>
+      <change idref="t1068" attribute="title" type="string" to="Manual review #2"/>
+    </change>
+    <change idref="t1049" from="t25" from-position="1" resolved="yes"/>
+    <change idref="t1048" from="t25" from-position="0" resolved="yes"/>
+    <change idref="t1064" to="t25" to-position="0" resolved="yes">
+      <change idref="t1064" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1064" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1064" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1064" attribute="resourceLeveledDate" type="date" to="2018-06-22T00:00:00.000Z"/>
+      <change idref="t1064" attribute="title" type="string" to="Distribute survey #1"/>
+    </change>
+    <change idref="t1065" to="t25" to-position="1" resolved="yes">
+      <change idref="t1065" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1065" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1065" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1065" attribute="resourceLeveledDate" type="date" to="2018-06-24T16:00:00.000Z"/>
+      <change idref="t1065" attribute="title" type="string" to="Distribute survey #2"/>
+    </change>
+    <change idref="t26" attribute="resourceLeveledDate" type="date" to="2018-07-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-06-24T16:00:00.000Z" to="2018-07-22T15:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t1055" from="t28" from-position="1" resolved="yes"/>
+    <change idref="t1054" from="t28" from-position="0" resolved="yes"/>
+    <change idref="t1043" attribute="resourceLeveledDate" type="date" from="2018-07-17T01:00:00.000Z" to="2018-07-24T00:00:00.000Z" resolved="yes"/>
+    <change idref="t1043" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t1044" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t1044" attribute="resourceLeveledDate" type="date" to="2018-07-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t1045" attribute="resourceLeveledDate" type="date" from="2018-07-04T01:00:00.000Z" to="2018-07-03T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1045" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t1046" attribute="resourceLeveledDate" type="date" from="2018-06-26T01:00:00.000Z" to="2018-06-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t1046" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t1047" attribute="resourceLeveledDate" type="date" from="2018-07-05T01:00:00.000Z" to="2018-06-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t1047" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T04:08:02.908Z" timestamp="2018-06-14T04:08:02.908Z">
+    <change idref="t10" attribute="resourceLeveledDate" type="date" from="2018-07-12T00:00:00.000Z" to="2018-07-13T00:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" from="2018-07-25T00:00:00.000Z" to="2018-07-20T02:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" from="2018-07-24T00:00:00.000Z" to="2018-07-22T16:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-25T02:00:00.000Z" to="2018-07-25T00:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-06-26T01:00:00.000Z" to="2018-06-19T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1067" from="t22" from-position="1" resolved="yes">
+      <change idref="t1067" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1067" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1067" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1067" attribute="resourceLeveledDate" type="date" to="2018-06-28T02:00:00.000Z"/>
+      <change idref="t1067" attribute="title" type="string" to="Manual review #2"/>
+    </change>
+    <change idref="t1066" from="t22" from-position="0" resolved="yes">
+      <change idref="t1066" attribute="effort" type="real" from="28800" to="18000"/>
+      <change idref="t1066" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1066" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1066" attribute="resourceLeveledDate" type="date" to="2018-06-26T01:00:00.000Z"/>
+      <change idref="t1066" attribute="title" type="string" to="Manual review #1"/>
+    </change>
+    <change idref="t1075" to="t22" to-position="0" resolved="yes">
+      <change idref="t1075" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t1075" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1075" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1075" attribute="resourceLeveledDate" type="date" to="2018-06-26T02:00:00.000Z"/>
+      <change idref="t1075" attribute="title" type="string" to="Manual review #1"/>
+    </change>
+    <change idref="t1076" to="t22" to-position="1" resolved="yes">
+      <change idref="t1076" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t1076" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1076" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1076" attribute="resourceLeveledDate" type="date" to="2018-06-28T02:00:00.000Z"/>
+      <change idref="t1076" attribute="title" type="string" to="Manual review #2"/>
+    </change>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-07-11T02:00:00.000Z" to="2018-06-19T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1068" from="t23" from-position="1" resolved="yes">
+      <change idref="t1068" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1068" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1068" attribute="resourceLeveledDate" type="date" to="2018-07-15T16:00:00.000Z"/>
+      <change idref="t1068" attribute="title" type="string" to="Manual review #2"/>
+    </change>
+    <change idref="t1062" from="t23" from-position="0" resolved="yes">
+      <change idref="t1062" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t1062" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1062" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1062" attribute="resourceLeveledDate" type="date" to="2018-07-12T02:00:00.000Z"/>
+      <change idref="t1062" attribute="title" type="string" to="Manual review #1"/>
+    </change>
+    <change idref="t1077" to="t23" to-position="0" resolved="yes">
+      <change idref="t1077" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t1077" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1077" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1077" attribute="resourceLeveledDate" type="date" to="2018-07-05T02:00:00.000Z"/>
+      <change idref="t1077" attribute="title" type="string" to="Manual review #1"/>
+    </change>
+    <change idref="t1078" to="t23" to-position="1" resolved="yes">
+      <change idref="t1078" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1078" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1078" attribute="resourceLeveledDate" type="date" to="2018-07-08T16:00:00.000Z"/>
+      <change idref="t1078" attribute="title" type="string" to="Manual review #2"/>
+    </change>
+    <change idref="t1065" from="t25" from-position="1" resolved="yes">
+      <change idref="t1065" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1065" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1065" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1065" attribute="resourceLeveledDate" type="date" to="2018-06-24T16:00:00.000Z"/>
+      <change idref="t1065" attribute="title" type="string" to="Distribute survey #2"/>
+    </change>
+    <change idref="t1064" from="t25" from-position="0" resolved="yes">
+      <change idref="t1064" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1064" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1064" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1064" attribute="resourceLeveledDate" type="date" to="2018-06-22T00:00:00.000Z"/>
+      <change idref="t1064" attribute="title" type="string" to="Distribute survey #1"/>
+    </change>
+    <change idref="t1073" to="t25" to-position="0" resolved="yes">
+      <change idref="t1073" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1073" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1073" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1073" attribute="resourceLeveledDate" type="date" to="2018-06-22T00:00:00.000Z"/>
+      <change idref="t1073" attribute="title" type="string" to="Distribute survey #1"/>
+    </change>
+    <change idref="t1074" to="t25" to-position="1" resolved="yes">
+      <change idref="t1074" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1074" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1074" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1074" attribute="resourceLeveledDate" type="date" to="2018-06-24T16:00:00.000Z"/>
+      <change idref="t1074" attribute="title" type="string" to="Distribute survey #2"/>
+    </change>
+    <change idref="t26" attribute="resourceLeveledDate" type="date" from="2018-07-19T00:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-07-22T15:00:00.000Z" to="2018-06-24T16:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1079" to="t28" to-position="0" resolved="yes">
+      <change idref="t1079" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1079" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1079" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1079" attribute="resourceLeveledDate" type="date" to="2018-07-12T00:00:00.000Z"/>
+      <change idref="t1079" attribute="title" type="string" to="Compile results, analyze #1"/>
+    </change>
+    <change idref="t1080" to="t28" to-position="1" resolved="yes">
+      <change idref="t1080" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1080" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1080" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1080" attribute="resourceLeveledDate" type="date" to="2018-07-15T16:00:00.000Z"/>
+      <change idref="t1080" attribute="title" type="string" to="Compile results, analyze #2"/>
+    </change>
+    <change idref="t1043" attribute="resourceLeveledDate" type="date" from="2018-07-24T00:00:00.000Z" to="2018-07-17T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1043" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t1044" attribute="resourceLeveledDate" type="date" from="2018-07-20T00:00:00.000Z" resolved="yes"/>
+    <change idref="t1044" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t1045" attribute="resourceLeveledDate" type="date" from="2018-07-03T01:00:00.000Z" to="2018-07-04T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1045" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t1046" attribute="resourceLeveledDate" type="date" from="2018-06-19T00:00:00.000Z" to="2018-06-26T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1046" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t1047" attribute="resourceLeveledDate" type="date" from="2018-06-19T00:00:00.000Z" to="2018-07-05T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1047" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T04:09:17.817Z" timestamp="2018-06-14T04:09:17.817Z">
+    <change idref="t8" attribute="resourceLeveledDate" type="date" from="2018-07-24T00:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="internalPrerequisitesString" type="string" from="8FF, 11FF" to="11FF" resolved="yes"/>
+    <change idref="t13" attribute="internalPrerequisitesString" type="string" from="8FF, 11FF" to="11FF" resolved="yes"/>
+    <change idref="t13" attribute="resourceLeveledDate" type="date" from="2018-07-29T16:00:00.000Z" to="2018-07-27T02:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-07-18T00:00:00.000Z" to="2018-06-19T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1076" from="t22" from-position="1" resolved="yes">
+      <change idref="t1076" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t1076" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1076" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1076" attribute="resourceLeveledDate" type="date" to="2018-07-19T01:00:00.000Z"/>
+      <change idref="t1076" attribute="title" type="string" to="Manual review #2"/>
+    </change>
+    <change idref="t1075" from="t22" from-position="0" resolved="yes">
+      <change idref="t1075" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t1075" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1075" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1075" attribute="resourceLeveledDate" type="date" to="2018-07-18T00:00:00.000Z"/>
+      <change idref="t1075" attribute="title" type="string" to="Manual review #1"/>
+    </change>
+    <change idref="t1116" to="t22" to-position="0" resolved="yes">
+      <change idref="t1116" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t1116" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1116" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1116" attribute="resourceLeveledDate" type="date" to="2018-06-26T02:00:00.000Z"/>
+      <change idref="t1116" attribute="title" type="string" to="Manual review #1"/>
+    </change>
+    <change idref="t1117" to="t22" to-position="1" resolved="yes">
+      <change idref="t1117" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t1117" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1117" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1117" attribute="resourceLeveledDate" type="date" to="2018-06-28T02:00:00.000Z"/>
+      <change idref="t1117" attribute="title" type="string" to="Manual review #2"/>
+    </change>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-07-20T02:00:00.000Z" to="2018-07-01T17:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t1078" from="t23" from-position="1" resolved="yes">
+      <change idref="t1078" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1078" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1078" attribute="title" type="string" to="Manual review #2"/>
+    </change>
+    <change idref="t1077" from="t23" from-position="0" resolved="yes">
+      <change idref="t1077" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t1077" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1077" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1077" attribute="resourceLeveledDate" type="date" to="2018-07-20T02:00:00.000Z"/>
+      <change idref="t1077" attribute="title" type="string" to="Manual review #1"/>
+    </change>
+    <change idref="t25" attribute="resourceLeveledDate" type="date" from="2018-07-25T00:00:00.000Z" to="2018-06-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t1074" from="t25" from-position="1" resolved="yes">
+      <change idref="t1074" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1074" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1074" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1074" attribute="title" type="string" to="Distribute survey #2"/>
+    </change>
+    <change idref="t1073" from="t25" from-position="0" resolved="yes">
+      <change idref="t1073" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1073" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1073" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1073" attribute="resourceLeveledDate" type="date" to="2018-07-25T02:00:00.000Z"/>
+      <change idref="t1073" attribute="title" type="string" to="Distribute survey #1"/>
+    </change>
+    <change idref="t1114" to="t25" to-position="0" resolved="yes">
+      <change idref="t1114" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1114" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1114" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1114" attribute="resourceLeveledDate" type="date" to="2018-06-22T00:00:00.000Z"/>
+      <change idref="t1114" attribute="title" type="string" to="Distribute survey #1"/>
+    </change>
+    <change idref="t1115" to="t25" to-position="1" resolved="yes">
+      <change idref="t1115" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1115" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1115" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1115" attribute="resourceLeveledDate" type="date" to="2018-06-24T16:00:00.000Z"/>
+      <change idref="t1115" attribute="title" type="string" to="Distribute survey #2"/>
+    </change>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-07-24T02:00:00.000Z" to="2018-07-15T16:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t1087" from="t27" from-position="1" resolved="yes"/>
+    <change idref="t1086" from="t27" from-position="0" resolved="yes"/>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-07-26T02:00:00.000Z" to="2018-07-19T01:00:00.000Z" resolved="yes"/>
+    <change idref="t28" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t1080" from="t28" from-position="1" resolved="yes">
+      <change idref="t1080" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1080" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1080" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1080" attribute="title" type="string" to="Compile results, analyze #2"/>
+    </change>
+    <change idref="t1079" from="t28" from-position="0" resolved="yes">
+      <change idref="t1079" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1079" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1079" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1079" attribute="resourceLeveledDate" type="date" to="2018-07-26T02:00:00.000Z"/>
+      <change idref="t1079" attribute="title" type="string" to="Compile results, analyze #1"/>
+    </change>
+    <change idref="t1043" attribute="resourceLeveledDate" type="date" to="2018-07-22T16:00:00.000Z" resolved="yes"/>
+    <change idref="t1045" attribute="resourceLeveledDate" type="date" to="2018-07-18T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1046" attribute="resourceLeveledDate" type="date" from="2018-06-22T00:00:00.000Z" to="2018-06-26T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1047" attribute="resourceLeveledDate" type="date" from="2018-06-22T01:00:00.000Z" to="2018-07-01T16:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-14T04:11:33.007Z" timestamp="2018-06-14T04:11:33.007Z">
+    <change idref="t10" attribute="resourceLeveledDate" type="date" from="2018-07-12T00:00:00.000Z" to="2018-07-13T01:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="resourceLeveledDate" type="date" to="2018-07-25T01:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="internalPrerequisitesString" type="string" from="11FF" to="11FS" resolved="yes"/>
+    <change idref="t12" attribute="resourceLeveledDate" type="date" to="2018-07-25T03:00:00.000Z" resolved="yes"/>
+    <change idref="t13" attribute="internalPrerequisitesString" type="string" from="11FF" to="11FS" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2018-06-19T01:00:00.000Z" to="2018-07-04T00:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t1117" from="t22" from-position="1" resolved="yes">
+      <change idref="t1117" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t1117" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1117" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1117" attribute="resourceLeveledDate" type="date" to="2018-06-28T02:00:00.000Z"/>
+      <change idref="t1117" attribute="title" type="string" to="Manual review #2"/>
+    </change>
+    <change idref="t1116" from="t22" from-position="0" resolved="yes">
+      <change idref="t1116" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t1116" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1116" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1116" attribute="resourceLeveledDate" type="date" to="2018-06-26T02:00:00.000Z"/>
+      <change idref="t1116" attribute="title" type="string" to="Manual review #1"/>
+    </change>
+    <change idref="t23" attribute="resourceLeveledDate" type="date" from="2018-07-01T17:00:00.000Z" to="2018-07-05T01:00:00.000Z" resolved="yes"/>
+    <change idref="t23" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1118" to="t23" to-position="0" resolved="yes">
+      <change idref="t1118" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1118" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1118" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1118" attribute="resourceLeveledDate" type="date" to="2018-07-10T01:00:00.000Z"/>
+      <change idref="t1118" attribute="title" type="string" to="Manual review #1"/>
+    </change>
+    <change idref="t1124" to="t23" to-position="1" resolved="yes">
+      <change idref="t1124" attribute="effort" type="real" from="28800" to="32400"/>
+      <change idref="t1124" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1124" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1124" attribute="resourceLeveledDate" type="date" to="2018-07-17T01:00:00.000Z"/>
+      <change idref="t1124" attribute="title" type="string" to="Manual review #2"/>
+    </change>
+    <change idref="t1115" from="t25" from-position="1" resolved="yes">
+      <change idref="t1115" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1115" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1115" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1115" attribute="resourceLeveledDate" type="date" to="2018-06-24T16:00:00.000Z"/>
+      <change idref="t1115" attribute="title" type="string" to="Distribute survey #2"/>
+    </change>
+    <change idref="t1114" from="t25" from-position="0" resolved="yes">
+      <change idref="t1114" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1114" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1114" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1114" attribute="resourceLeveledDate" type="date" to="2018-06-22T00:00:00.000Z"/>
+      <change idref="t1114" attribute="title" type="string" to="Distribute survey #1"/>
+    </change>
+    <change idref="t1120" to="t25" to-position="0" resolved="yes">
+      <change idref="t1120" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1120" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1120" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1120" attribute="resourceLeveledDate" type="date" to="2018-06-22T00:00:00.000Z"/>
+      <change idref="t1120" attribute="title" type="string" to="Distribute survey #1"/>
+    </change>
+    <change idref="t1121" to="t25" to-position="1" resolved="yes">
+      <change idref="t1121" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1121" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1121" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1121" attribute="resourceLeveledDate" type="date" to="2018-06-24T16:00:00.000Z"/>
+      <change idref="t1121" attribute="title" type="string" to="Distribute survey #2"/>
+    </change>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2018-07-15T16:00:00.000Z" to="2018-07-08T15:30:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1122" to="t27" to-position="0" resolved="yes">
+      <change idref="t1122" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1122" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1122" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1122" attribute="resourceLeveledDate" type="date" to="2018-07-08T16:00:00.000Z"/>
+      <change idref="t1122" attribute="title" type="string" to="Compile results, analyze #1"/>
+    </change>
+    <change idref="t1123" to="t27" to-position="1" resolved="yes">
+      <change idref="t1123" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t1123" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t1123" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t1123" attribute="resourceLeveledDate" type="date" to="2018-07-11T01:00:00.000Z"/>
+      <change idref="t1123" attribute="title" type="string" to="Compile results, analyze #2"/>
+    </change>
+    <change idref="t28" attribute="resourceLeveledDate" type="date" from="2018-07-19T01:00:00.000Z" to="2018-07-20T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1043" attribute="resourceLeveledDate" type="date" from="2018-07-22T16:00:00.000Z" to="2018-07-24T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1045" attribute="resourceLeveledDate" type="date" from="2018-07-18T01:00:00.000Z" to="2018-07-12T01:00:00.000Z" resolved="yes"/>
+    <change idref="t1047" attribute="resourceLeveledDate" type="date" from="2018-07-01T16:00:00.000Z" to="2018-06-26T02:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="Ryan Turner" date="2018-06-14T03:34:27.359Z" timestamp="2018-06-14T03:34:27.359Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="36000,43200,46800,61200;68400,75600;68400,75600;68400,75600;68400,75600;;36000,43200,46800,61200" to="36000,43200,46800,61200;68400,77400;68400,77400;68400,77400;68400,77400;;" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Ryan Turner" date="2018-06-14T03:36:35.801Z" timestamp="2018-06-14T03:36:35.801Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="36000,43200,46800,61200;68400,77400;68400,77400;68400,77400;68400,77400;;" to="36000,46800;68400,79200;68400,79200;68400,79200;68400,79200;;" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="Ryan Turner" date="2018-06-12T14:37:50.890Z" timestamp="2018-06-12T14:37:50.890Z">
+    <change idref="m1" attribute="autoLevelResources" type="real" from="0" to="1" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Ryan Turner" date="2018-06-14T03:16:30.624Z" timestamp="2018-06-14T03:16:30.624Z">
+    <change idref="m1" attribute="minimumSplitDuration" type="real" from="0" to="14400" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Ryan Turner" date="2018-06-14T03:21:59.467Z" timestamp="2018-06-14T03:21:59.467Z">
+    <change idref="m1" attribute="minimumSplitDuration" type="real" from="14400" to="7200" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Ryan Turner" date="2018-06-14T04:06:21.568Z" timestamp="2018-06-14T04:06:21.568Z">
+    <change idref="m1" attribute="minimumSplitDuration" type="real" from="7200" to="0" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Ryan Turner" date="2018-06-14T04:07:49.058Z" timestamp="2018-06-14T04:07:49.058Z">
+    <change idref="m1" attribute="minimumSplitDuration" type="real" from="0" to="10800" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
