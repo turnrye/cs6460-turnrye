@@ -2,7 +2,6 @@
 title: "Project Proposal"
 date: "June 2018"
 author: "Ryan Turner"
-fontfamily: libertine
 classoption: twocolumn
 ---
 
