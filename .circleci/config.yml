@@ -20,6 +20,11 @@ jobs:
           command: |
             pandoc --filter pandoc-citeproc assignment-3.md -o assignment-3.pdf
             pandoc --filter pandoc-citeproc assignment-3.md -o assignment-3.epub
+      - run:
+          name: Generate qualifier question
+          command: |
+            pandoc --filter pandoc-citeproc --bibliography project-proposal.bibtex project-proposal.md -o project-proposal.pdf
+            pandoc --filter pandoc-citeproc --bibliography project-proposal.bibtex project-proposal.md -o project-proposal.epub
       - store_artifacts:
           path: /root/project/assignment-1.pdf
       - store_artifacts:
@@ -32,3 +37,7 @@ jobs:
           path: /root/project/assignment-3.pdf
       - store_artifacts:
           path: /root/project/assignment-3.epub
+      - store_artifacts:
+          path: /root/project/project-proposal.pdf
+      - store_artifacts:
+          path: /root/project/project-proposal.epub
