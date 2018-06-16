@@ -13,13 +13,13 @@ For creators of technology, educating users is often a challenge. Some creators 
 
 Rapidly-changing topics seem to be learned in fragmented, difficult to measure ways. This research will focus on the following problem:
 
-**How do developers learn rapidly-changing platforms?**
+**How do developers learn rapidly-changing frameworks?**
 
 To answer this question, the "where, when, and why" are considered. Specifically, the three following research questions will be investigated:
 
 **RQ1: What learning tools are preferred?**
 
-Understanding what tools are preferred helps to show what traits developers prefer in their tools, as well as what platforms content creators choose to use for teaching. In pursuing this, various tools for learning will be considered. Some examples include institution-sponsored courses, massive open online courses (MOOCs), books, weblog tutorials, forum and knowledge market threads, workshops, and even hackathons. This can answer what structures best suit rapidly-changing platforms. This detail represents where the learning occurs.
+Understanding what tools are preferred helps to show what traits developers prefer in their tools, as well as what content creators choose to use for teaching. In pursuing this, various tools for learning will be considered. Some examples include institution-sponsored courses, massive open online courses (MOOCs), books, weblog tutorials, forum and knowledge market threads, workshops, and even hackathons. This can answer what structures best suit rapidly-changing frameworks. This detail represents where the learning occurs.
 
 **RQ2: Is their learning motivated by a pressing need?**
 
@@ -31,23 +31,41 @@ The scope of learning tools widely varies, from weeks-long MOOCs to ten-minute r
 
 ## Background literature
 
-In this research, non-institutional learning methods will be analyzed. A specific kind of this is informal learning [@marsick2001informal], which is learning with little structure and often the byproduct of some other activity [@marsick2001informal]. Informal learning is "relevant to practice in many cultures and contexts" and takes "place wherever people have need, motivation, and opportunity for learning" [@marsick2001informal]. While this method is often looked at from a business context [@marsick2001informal; @noe2014learning], motivation could come as uncertainty of creating a new solution or resolving a bug in code. A social component is also defining for informal learning: while the trigger may be considered locally to an individual, it is often the result of an external change such as results of a tester's work or a request from a product owner. Informal learning takes place around all of us day to day.
+In this research, non-institutional learning methods will be considered. A specific kind of this is informal learning [@marsick2001informal], which is learning with little structure and often the byproduct of some other activity [@marsick2001informal]. Informal learning is "relevant to practice in many cultures and contexts" and takes "place wherever people have need, motivation, and opportunity for learning" [@marsick2001informal]. While this method is often looked at from a business context [@marsick2001informal; @noe2014learning], motivation could come as uncertainty of creating a new solution or resolving a bug in code. A social component is also defining for informal learning: while the trigger may be considered locally to an individual, it is often the result of an external change such as results of a tester's work or a request from a product owner. Informal learning takes place around all of us day to day.
 
-In looking at how developers learn rapidly-changing platforms, we must start by reviewing their options. Developers have many solutions available for learning (see [Research Problem](#research-problem)). The next paragraphs describe the informal learning activities that take place within a subset of these.
+In looking at how developers learn rapidly-changing frameworks, we must start by reviewing their options. Developers have many solutions available for learning (see [Research Problem](#research-problem)). The next paragraphs describe the informal learning activities that take place within a subset of these.
 
 In research of programmers use of tools, @murphy2011peer shows how peer interaction help leads to more discovery. While discovery is more specifically called "the first stage of some kinds of learning," it does pose a potential type of learning for our problem. Murphy-Hill contrasts peer interaction from Marsick's definition of informal learning, however when consider according to the definition proposed above, the distinctions are removed. In this work, Murphy-Hill demonstrates how situations like happenstance interaction, pair programming, and even change notification often result in peer observations and recommendations. These represent the "discoveries" of tools, but in some cases they also represent the teaching material itself: with pair programming, the peer interaction often creates an incidental situated learning experience.
 
 Hackathons are also proposed as "excellent informal learning platforms" [@nandi2016hackathons]. A hackathon is "face-paced event where competitors work in teams to go from an idea to working software or hardware within a single day or a weekend." Like in @murphy2011peer's work, the authors cite peer-learning as common place in this setting. Consistent with the definition of informal learning, at hackathons the problems create the need, the gamification create the motivation, and the industry mentors plus online resources create the opportunity. While this primarily focused on learnings within teams, they also recognize that the learning environment created at a hackathon excels at producing industry-relevant learnings and skills. WMany kinds of learning may occur within a hackathon, but the overall activity itself is stated as "a great opportunity to learn" [@nandi2016hackathons], and to some considered a tool for learning.
 
-### MOOCs
+MOOCs present as popular online digital learning tools today, with popular examples being Coursera, edX, and Udacity [@yousef2014review]. When considering learning theories within MOOCs, there tend to be either connectivism-driven MOOCs (cMOOCs) or extension MOOCs (xMOOCs) [@yousef2014review]. The two of these are significantly different in their application of learning models, and more needs to be done to make use of informal, personalized, or professional learning on these platforms [@yousef2014review]. 
 
-### Recap of learning today
+The proposed research touches on much of the same idea as one proposed by @noe2014learning: "What antecedents and conditions facilitate continuous learning, especially informal learning, and knowledge sharing?" In considering the form of learning, @noe2014learning mentions that "informal learning may be equally important to or even more important than other forms of learning." In fact, informal learning is so prevalent in organizations that it may account for up to 75% of learning [@noe2014learning; @bear2008tapping]. Yet, the future issue is still proposed: "What are the antecedents and consequences of informal learning?" [noe2014learning].
+
+In the problem itself, the term "frameworks" is used. For the sake of this research, a framework is defined as "a form of software reuse that primarily promotes the reuse of entire architectures within a narrowly defined application domain" [@pasetti2002software].
 
 ## Research methodology
 
-A survey research methodology will be used for this work. 
+A survey research methodology will be used for this work. In order to help control internal validity, the question was constrained to only researching the learning of frameworks. For the sake of convenience, a single framework's community of learners will be surveyed.
 
-- Research methodology that will be used, including independent and dependent variables, internal and external validity, and the connections between these and the RQs
+Dependent variables for this research will include:
+
+- Tools selected
+- Time in which learning occurs
+- Duration for the learning
+
+Independent variables for this research will include:
+
+- Prior knowledge and experience (both in the framework and outside of the framework)
+- Learning style preference
+- Access to learning tools
+
+The dependent variables directly map to the research questions proposed.
+
+### Validity TODO
+
+### Connection to the RQs TODO
 
 ## Data
 
