@@ -88,7 +88,7 @@
   </task>
   <task id="t1">
     <title>Weekly Status Check 1</title>
-    <leveled-start>2018-06-24T15:00:00.000Z</leveled-start>
+    <leveled-start>2018-06-24T17:00:00.000Z</leveled-start>
     <effort>1800</effort>
     <start-constraint-date>2018-06-23T05:00:00.000Z</start-constraint-date>
     <end-constraint-date>2018-06-25T05:00:00.000Z</end-constraint-date>
@@ -98,7 +98,7 @@
   </task>
   <task id="t4">
     <title>Weekly Status Check 2</title>
-    <leveled-start>2018-07-03T00:00:00.000Z</leveled-start>
+    <leveled-start>2018-07-01T16:00:00.000Z</leveled-start>
     <effort>1800</effort>
     <start-constraint-date>2018-06-29T05:00:00.000Z</start-constraint-date>
     <end-constraint-date>2018-07-03T00:30:00.000Z</end-constraint-date>
@@ -109,19 +109,20 @@
   </task>
   <task id="t6">
     <title>Weekly Status Check 3</title>
-    <leveled-start>2018-07-08T16:00:00.000Z</leveled-start>
+    <leveled-start>2018-07-08T15:00:00.000Z</leveled-start>
     <effort>1800</effort>
     <start-constraint-date>2018-07-06T05:00:00.000Z</start-constraint-date>
     <end-constraint-date>2018-07-09T05:00:00.000Z</end-constraint-date>
     <prerequisite-task idref="t4"/>
     <prerequisite-task idref="t9"/>
+    <prerequisite-task idref="t25"/>
     <assignment idref="r1"/>
     <start-no-earlier-than>2018-07-06T05:00:00.000Z</start-no-earlier-than>
     <end-no-later-than>2018-07-09T05:00:00.000Z</end-no-later-than>
   </task>
   <task id="t7">
     <title>Weekly Status Check 4</title>
-    <leveled-start>2018-07-15T15:00:00.000Z</leveled-start>
+    <leveled-start>2018-07-15T17:00:00.000Z</leveled-start>
     <effort>1800</effort>
     <start-constraint-date>2018-07-13T05:00:00.000Z</start-constraint-date>
     <end-constraint-date>2018-07-16T05:00:00.000Z</end-constraint-date>
@@ -144,11 +145,13 @@
   </task>
   <task id="t9">
     <title>Milestone 1</title>
-    <leveled-start>2018-07-01T15:00:00.000Z</leveled-start>
+    <leveled-start>2018-06-28T00:00:00.000Z</leveled-start>
     <effort>10800</effort>
     <start-constraint-date>2018-06-27T05:00:00.000Z</start-constraint-date>
     <end-constraint-date>2018-07-02T05:00:00.000Z</end-constraint-date>
     <prerequisite-task idref="t1"/>
+    <prerequisite-task idref="t21"/>
+    <prerequisite-task idref="t1144"/>
     <assignment idref="r1"/>
     <start-no-earlier-than>2018-06-27T05:00:00.000Z</start-no-earlier-than>
     <end-no-later-than>2018-07-02T05:00:00.000Z</end-no-later-than>
@@ -160,13 +163,13 @@
     <start-constraint-date>2018-07-11T05:00:00.000Z</start-constraint-date>
     <end-constraint-date>2018-07-16T05:00:00.000Z</end-constraint-date>
     <prerequisite-task idref="t6"/>
+    <prerequisite-task idref="t1153"/>
     <assignment idref="r1"/>
     <start-no-earlier-than>2018-07-11T05:00:00.000Z</start-no-earlier-than>
     <end-no-later-than>2018-07-16T05:00:00.000Z</end-no-later-than>
   </task>
   <task id="t11">
     <title>Final project deliverable</title>
-    <leveled-start>2018-07-25T00:00:00.000Z</leveled-start>
     <effort>10800</effort>
     <end-constraint-date>2018-07-30T05:00:00.000Z</end-constraint-date>
     <prerequisite-task idref="t1044" kind="FF"/>
@@ -176,16 +179,16 @@
   </task>
   <task id="t12">
     <title>Project paper</title>
-    <split/>
-    <leveled-start>2018-07-24T00:00:00.000Z</leveled-start>
+    <leveled-start>2018-07-27T00:00:00.000Z</leveled-start>
     <effort>18000</effort>
-    <child-task idref="t1382"/>
-    <child-task idref="t1383"/>
+    <end-constraint-date>2018-07-30T05:00:00.000Z</end-constraint-date>
     <prerequisite-task idref="t11"/>
+    <assignment idref="r1"/>
+    <end-no-later-than>2018-07-30T05:00:00.000Z</end-no-later-than>
   </task>
   <task id="t13">
     <title>Project presentation</title>
-    <leveled-start>2018-07-26T02:00:00.000Z</leveled-start>
+    <leveled-start>2018-07-25T01:00:00.000Z</leveled-start>
     <effort>18000</effort>
     <end-constraint-date>2018-07-30T05:00:00.000Z</end-constraint-date>
     <prerequisite-task idref="t11" kind="FF"/>
@@ -195,21 +198,20 @@
   <task id="t21">
     <title>Build survey</title>
     <leveled-start>2018-06-19T00:00:00.000Z</leveled-start>
-    <effort>32400</effort>
+    <effort>25200</effort>
     <end-constraint-date>2018-07-09T05:00:00.000Z</end-constraint-date>
     <assignment idref="r1"/>
     <end-no-later-than>2018-07-09T05:00:00.000Z</end-no-later-than>
   </task>
   <task id="t25">
     <title>Distribute survey</title>
-    <leveled-start>2018-07-19T00:00:00.000Z</leveled-start>
-    <effort>21600</effort>
+    <leveled-start>2018-07-01T17:00:00.000Z</leveled-start>
+    <effort>32400</effort>
     <prerequisite-task idref="t1271"/>
     <assignment idref="r1"/>
   </task>
   <task id="t26">
     <title>Compile results, analyze</title>
-    <leveled-start>2018-07-22T16:00:00.000Z</leveled-start>
     <effort>21600</effort>
     <start-constraint-date>2018-07-18T05:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t25"/>
@@ -264,76 +266,48 @@
   </task>
   <task id="t1144">
     <title>Build survey</title>
-    <leveled-start>2018-06-24T16:00:00.000Z</leveled-start>
-    <effort>32400</effort>
+    <leveled-start>2018-06-21T01:00:00.000Z</leveled-start>
+    <effort>25200</effort>
     <end-constraint-date>2018-07-01T05:00:00.000Z</end-constraint-date>
     <assignment idref="r1"/>
     <end-no-later-than>2018-07-01T05:00:00.000Z</end-no-later-than>
   </task>
   <task id="t1153">
     <title>Conduct survey interviews</title>
-    <split/>
-    <leveled-start>2018-06-22T02:00:00.000Z</leveled-start>
-    <effort>32400</effort>
-    <child-task idref="t1380"/>
-    <child-task idref="t1381"/>
+    <leveled-start>2018-07-08T16:00:00.000Z</leveled-start>
+    <effort>28800</effort>
     <prerequisite-task idref="t1252"/>
+    <assignment idref="r1"/>
   </task>
   <task id="t1158">
     <title>Compile results, analyze</title>
-    <leveled-start>2018-07-05T01:00:00.000Z</leveled-start>
-    <effort>10800</effort>
+    <leveled-start>2018-07-12T02:00:00.000Z</leveled-start>
+    <effort>21600</effort>
     <prerequisite-task idref="t1153"/>
     <assignment idref="r1"/>
   </task>
   <task id="t1163">
     <title>Document process and conclusions</title>
-    <leveled-start>2018-07-06T01:00:00.000Z</leveled-start>
+    <leveled-start>2018-07-17T00:00:00.000Z</leveled-start>
     <effort>10800</effort>
     <prerequisite-task idref="t1158"/>
     <assignment idref="r1"/>
   </task>
   <task id="t1252">
     <title>Incorporate feedback</title>
-    <leveled-start>2018-06-28T01:00:00.000Z</leveled-start>
+    <leveled-start>2018-06-29T02:00:00.000Z</leveled-start>
     <effort>7200</effort>
+    <prerequisite-task idref="t9"/>
     <prerequisite-task idref="t1144"/>
     <assignment idref="r1"/>
   </task>
   <task id="t1271">
     <title>Incorporate feedback</title>
-    <leveled-start>2018-06-22T00:00:00.000Z</leveled-start>
+    <leveled-start>2018-06-29T00:00:00.000Z</leveled-start>
     <effort>7200</effort>
+    <prerequisite-task idref="t9"/>
     <prerequisite-task idref="t21"/>
     <assignment idref="r1"/>
-  </task>
-  <task id="t1380">
-    <title>Conduct survey interviews</title>
-    <leveled-start>2018-06-29T00:00:00.000Z</leveled-start>
-    <effort>10800</effort>
-    <assignment idref="r1"/>
-  </task>
-  <task id="t1381">
-    <title>Conduct survey interviews</title>
-    <leveled-start>2018-07-03T01:00:00.000Z</leveled-start>
-    <effort>21600</effort>
-    <assignment idref="r1"/>
-  </task>
-  <task id="t1382">
-    <title>Project paper</title>
-    <leveled-start>2018-07-26T00:00:00.000Z</leveled-start>
-    <effort>7200</effort>
-    <end-constraint-date>2018-07-30T05:00:00.000Z</end-constraint-date>
-    <assignment idref="r1"/>
-    <end-no-later-than>2018-07-30T05:00:00.000Z</end-no-later-than>
-  </task>
-  <task id="t1383">
-    <title>Project paper</title>
-    <leveled-start>2018-07-27T01:00:00.000Z</leveled-start>
-    <effort>10800</effort>
-    <end-constraint-date>2018-07-30T05:00:00.000Z</end-constraint-date>
-    <assignment idref="r1"/>
-    <end-no-later-than>2018-07-30T05:00:00.000Z</end-no-later-than>
   </task>
   <critical-path root="-1" enabled="false" resources="true">
     <color space="srgb" r="1" g="0.5" b="0.5"/>

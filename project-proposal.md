@@ -75,11 +75,38 @@ There will be five weeks of status reports provided; each will present the proce
 
 There will be two intermediate milestones, both largely focusing on the surveys. In the first milestone, both surveys will be presented. This will allow for any last-minute modifications. In the second milestone, the results and analysis from one of the surveys will be presented.
 
-The final project will be a public repository with the structured results from the surveys. It will be posted to Github in an easily consumed, OSS format, such as markdown documentation and csv results.
+The final project will be a public repository with the structured results from the surveys. It will be posted to Github in an easily consumed, OSS format, such as markdown documentation and csv results. This repository already exists today with source for all assignments, the project plan, and an export of the plan with progress noted. It can be found [here](http://turnrye.com/cs6460-turnrye/).
 
 The final paper will present the findings with a format largely following this document's. The presentation will be a recorded screen session from the author's workplace at one of their biweekly research and training sessions.
 
 # Coded Work Breakdown Structure
+
+The following tasks will take place during the life of this project:
+
+- Weekly Status Check 1
+- Weekly Status Check 2
+- Weekly Status Check 3
+- Weekly Status Check 4
+- Weekly Status Check 5
+- Milestone 1
+- Milestone 2
+- Project paper
+- Final project deliverable
+- Project presentation
+- Broad Developer Survey
+    - Build survey
+    - Incorporate feedback
+    - Distribute survey
+    - Compile results, analyze
+    - Document process and conclusions
+- Detailed Developer Survey
+    - Build survey
+    - Incorporate feedback
+    - Conduct survey interviews
+    - Compile results, analyze
+    - Document process and conclusions
+
+For more details of these tasks, like the duration, constraints, and scheduled times, please refer to the project export in the repository linked above.
 
 # Calendar
 
