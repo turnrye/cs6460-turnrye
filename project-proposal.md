@@ -79,35 +79,75 @@ The final project will be a public repository with the structured results from t
 
 The final paper will present the findings with a format largely following this document's. The presentation will be a recorded screen session from the author's workplace at one of their biweekly research and training sessions.
 
-# Coded Work Breakdown Structure
+# Work Breakdown Structure
 
 The following tasks will take place during the life of this project:
 
-- Weekly Status Check 1
-- Weekly Status Check 2
-- Weekly Status Check 3
-- Weekly Status Check 4
-- Weekly Status Check 5
-- Milestone 1
-- Milestone 2
-- Project paper
-- Final project deliverable
-- Project presentation
-- Broad Developer Survey
-    - Build survey
-    - Incorporate feedback
-    - Distribute survey
-    - Compile results, analyze
-    - Document process and conclusions
-- Detailed Developer Survey
-    - Build survey
-    - Incorporate feedback
-    - Conduct survey interviews
-    - Compile results, analyze
-    - Document process and conclusions
+1. Weekly Status Checks
+    1. Weekly Status Check 1
+    2. Weekly Status Check 2
+    3. Weekly Status Check 3
+    4. Weekly Status Check 4
+    5. Weekly Status Check 5
+2. Intermediate Milestones
+    1. Milestone 1
+    2. Milestone 2
+3. Final Deliverables
+    1. Project paper
+    2. Final project deliverable
+    3. Project presentation
+4. Broad Developer Survey
+    1. Build survey
+    2. Incorporate feedback
+    3. Distribute survey
+    4. Compile results, analyze
+    5. Document process and conclusions
+5. Detailed Developer Survey
+    1. Build survey
+    2. Incorporate feedback
+    3. Conduct survey interviews
+    4. Compile results, analyze
+    5. Document process and conclusions
 
 For more details of these tasks, like the duration, constraints, and scheduled times, please refer to the project export in the repository linked above.
 
 # Calendar
+
+![Snapshot of the resource timeline, taken from the repository](resource-timeline-snapshot.png)
+
+In the figure, a snapshot is displayed. Weekly status checks are labeled, and work completed prior to the status check is expected to be presented for that week. The same data is repeated below in a list fashion, with the tasks listed referencing their WBS code from the previous section. Tasks that are listed are expected to be complete and have an update present in that week's status check.
+
+## Week 1
+
+- 4.1 Build survey
+- 5.1 Build survey
+
+## Week 2
+
+- 2.1 Milestone 1
+- 4.2 Incorporate feedback
+- 5.2 Incorporate feedback
+
+## Week 3
+
+- 4.3 Distribute survey
+
+## Week 4
+
+- 5.3 Conduct survey interviews
+- 2.2 Milestone 2
+- 5.4 Compile results, analyze
+
+## Week 5
+
+- 5.5 Document process and conclusions
+- 4.4 Compile results, analyze
+
+## Week 6
+
+- 3.2 Final project deliverable
+- 4.5 Document process and conclusions
+- 3.3 Project presentation
+- 3.1 Project paper
 
 # References
