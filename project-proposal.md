@@ -47,7 +47,7 @@ In the problem itself, the term "frameworks" is used. For the sake of this resea
 
 ## Research methodology
 
-A survey research methodology will be used for this work. In order to help control internal validity, the question was constrained to only researching the learning of frameworks. For the sake of convenience, a single framework's community of learners will be surveyed.
+A survey research methodology will be used for this work. In order to help control internal validity, the question was constrained to only researching the learning of frameworks.
 
 Dependent variables for this research will include:
 
@@ -57,38 +57,27 @@ Dependent variables for this research will include:
 
 Independent variables for this research will include:
 
-- Prior knowledge and experience (both in the framework and outside of the framework)
+- Prior knowledge and experience (both in the framework and in computer science generally)
 - Learning style preference
 - Access to learning tools
 
-The dependent variables directly map to the research questions proposed.
+The dependent variables directly map to the research questions proposed; the independent variables will be recorded and included in the analysis.
 
-### Validity TODO
+In order to control for internal validity, the population surveyed will be limited to members of the React Native community. This is picked simply as a matter of convenience for the author, however it ensures that all subjects are learning the same framework. Additionally, subjects will be asked to limit their recollection to only recent times (some number of months) so as to avoid bad reporting; this problem is anticipated based on findings from @murphy2011peer.
 
-### Connection to the RQs TODO
+In order to control for external validity, it's important to determine what rapidly-changing means and show where this research may be applied. The author does not intend for this research to be inferred as applicable to mature frameworks, or even outside of software frameworks. Additionally, work must be done to establish the characteristics of the React Native framework and its community.
 
-## Data
-
-- A description of the data that will be needed, plus alternative plans
+The data needed is responses to the surveys. Should they not be available, either the scope of the study will be reduced, or the surveys will be re-distributed with incentives and more prominent sponsors (community leaders, educators, etc).
 
 # Key Deliverables
 
-## Status Reports
+There will be five weeks of status reports provided; each will present the process made, and challenges encountered, and an updated project plan. This will show quickly and clearly if the project is on schedule, as well as help determine if the project proposal is still being adhered to.
 
-- 5 weekly status reports, detailing from last week the progress, challenges, and any revisions to the plan
+There will be two intermediate milestones, both largely focusing on the surveys. In the first milestone, both surveys will be presented. This will allow for any last-minute modifications. In the second milestone, the results and analysis from one of the surveys will be presented.
 
-## Intermediate Milestones
+The final project will be a public repository with the structured results from the surveys. It will be posted to Github in an easily consumed, OSS format, such as markdown documentation and csv results.
 
-- 2 such as video presentations or prototypes to solicit feedback from classmates and mentor
-Need description here of what this is and why it's a good milestone
-
-## Final paper and presentation
-
-Reporting on the project
-
-## The final project itself
-
-- Data and research methods for the research track
+The final paper will present the findings with a format largely following this document's. The presentation will be a recorded screen session from the author's workplace at one of their biweekly research and training sessions.
 
 # Coded Work Breakdown Structure
 
