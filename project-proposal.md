@@ -73,9 +73,17 @@ Responses to the surveys are the needed data for this research. Should they not 
 
 # Key Deliverables
 
+## Status Reports
+
 There will be five weeks of status reports provided; each will present the progress made, challenges encountered, and an updated project plan. This will quickly and clearly show whether the project is on schedule, as well as help determine if the project proposal is being adhered to.
 
-There will be two intermediate milestones, both largely focusing on the surveys. In the first milestone, both surveys will be presented. This will allow for feedback from peers and instructors to be incorporated. In the second milestone, the results and analysis from one of the surveys will be presented.
+## Milestones
+
+There will be two intermediate milestones, both largely focusing on the surveys. In the first milestone, both surveys will be presented. Background context will inform peer reviewers of the research topic. Feedback by the mentor and peers will be addressed and incorporated into the survey prior to being distributed. 
+
+In the second milestone, the results and analysis from the first survey will be presented. This will also include background context and the very beginnings of analysis. Peers will learn about the research, and feedback will be gathered on the initial direction of the paper.
+
+## Final Deliverables
 
 The final project materials will be in a public repository with the structured results from the surveys. It will be posted to Github in an easily consumed, OSS format, such as markdown documentation and csv results. This repository already exists today with source for all assignments, the project plan, and an export of the plan with progress noted. It can be found [here](http://turnrye.com/cs6460-turnrye/).
 
