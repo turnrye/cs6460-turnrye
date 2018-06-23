@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="aEEAJeiA3nR">
+  <start-date>2018-06-18T05:00:00.000Z</start-date>
+  <granularity>hours</granularity>
+  <prototype-task>
+    <task id="t-2">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <name/>
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="36000" end-time="46800"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="68400" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="68400" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="68400" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="68400" end-time="79200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday"/>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+    <child-resource idref="r1"/>
+  </resource>
+  <resource id="r1">
+    <name>Ryan Turner</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t1026"/>
+    <child-task idref="t1028"/>
+    <child-task idref="t1029"/>
+    <child-task idref="t1031"/>
+    <child-task idref="t1135"/>
+  </task>
+  <task id="t1">
+    <title>Weekly Status Check 1</title>
+    <leveled-start>2018-06-24T17:00:00.000Z</leveled-start>
+    <effort>1800</effort>
+    <start-constraint-date>2018-06-23T05:00:00.000Z</start-constraint-date>
+    <end-constraint-date>2018-06-25T05:00:00.000Z</end-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-06-23T05:00:00.000Z</start-no-earlier-than>
+    <end-no-later-than>2018-06-25T05:00:00.000Z</end-no-later-than>
+  </task>
+  <task id="t4">
+    <title>Weekly Status Check 2</title>
+    <leveled-start>2018-07-01T16:00:00.000Z</leveled-start>
+    <effort>1800</effort>
+    <start-constraint-date>2018-06-29T05:00:00.000Z</start-constraint-date>
+    <end-constraint-date>2018-07-03T00:30:00.000Z</end-constraint-date>
+    <prerequisite-task idref="t1"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-06-29T05:00:00.000Z</start-no-earlier-than>
+    <start-no-later-than>2018-07-02T05:00:00.000Z</start-no-later-than>
+  </task>
+  <task id="t6">
+    <title>Weekly Status Check 3</title>
+    <leveled-start>2018-07-08T15:00:00.000Z</leveled-start>
+    <effort>1800</effort>
+    <start-constraint-date>2018-07-06T05:00:00.000Z</start-constraint-date>
+    <end-constraint-date>2018-07-09T05:00:00.000Z</end-constraint-date>
+    <prerequisite-task idref="t4"/>
+    <prerequisite-task idref="t9"/>
+    <prerequisite-task idref="t25"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-07-06T05:00:00.000Z</start-no-earlier-than>
+    <end-no-later-than>2018-07-09T05:00:00.000Z</end-no-later-than>
+  </task>
+  <task id="t7">
+    <title>Weekly Status Check 4</title>
+    <leveled-start>2018-07-15T17:00:00.000Z</leveled-start>
+    <effort>1800</effort>
+    <start-constraint-date>2018-07-13T05:00:00.000Z</start-constraint-date>
+    <end-constraint-date>2018-07-16T05:00:00.000Z</end-constraint-date>
+    <prerequisite-task idref="t6"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-07-13T05:00:00.000Z</start-no-earlier-than>
+    <end-no-later-than>2018-07-16T05:00:00.000Z</end-no-later-than>
+  </task>
+  <task id="t8">
+    <title>Weekly Status Check 5</title>
+    <leveled-start>2018-07-22T15:00:00.000Z</leveled-start>
+    <effort>1800</effort>
+    <start-constraint-date>2018-07-20T05:00:00.000Z</start-constraint-date>
+    <end-constraint-date>2018-07-23T22:00:00.000Z</end-constraint-date>
+    <prerequisite-task idref="t7"/>
+    <prerequisite-task idref="t10"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-07-20T05:00:00.000Z</start-no-earlier-than>
+    <end-no-later-than>2018-07-23T22:00:00.000Z</end-no-later-than>
+  </task>
+  <task id="t9">
+    <title>Milestone 1</title>
+    <leveled-start>2018-06-28T00:00:00.000Z</leveled-start>
+    <effort>10800</effort>
+    <start-constraint-date>2018-06-27T05:00:00.000Z</start-constraint-date>
+    <end-constraint-date>2018-07-02T05:00:00.000Z</end-constraint-date>
+    <prerequisite-task idref="t1"/>
+    <prerequisite-task idref="t21"/>
+    <prerequisite-task idref="t1144"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-06-27T05:00:00.000Z</start-no-earlier-than>
+    <end-no-later-than>2018-07-02T05:00:00.000Z</end-no-later-than>
+  </task>
+  <task id="t10">
+    <title>Milestone 2</title>
+    <leveled-start>2018-07-12T00:00:00.000Z</leveled-start>
+    <effort>7200</effort>
+    <start-constraint-date>2018-07-11T05:00:00.000Z</start-constraint-date>
+    <end-constraint-date>2018-07-16T05:00:00.000Z</end-constraint-date>
+    <prerequisite-task idref="t6"/>
+    <prerequisite-task idref="t1153"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-07-11T05:00:00.000Z</start-no-earlier-than>
+    <end-no-later-than>2018-07-16T05:00:00.000Z</end-no-later-than>
+  </task>
+  <task id="t11">
+    <title>Final project deliverable</title>
+    <effort>10800</effort>
+    <end-constraint-date>2018-07-30T05:00:00.000Z</end-constraint-date>
+    <prerequisite-task idref="t1044" kind="FF"/>
+    <prerequisite-task idref="t1163" kind="FF"/>
+    <assignment idref="r1"/>
+    <end-no-later-than>2018-07-30T05:00:00.000Z</end-no-later-than>
+  </task>
+  <task id="t12">
+    <title>Project paper</title>
+    <leveled-start>2018-07-27T00:00:00.000Z</leveled-start>
+    <effort>18000</effort>
+    <end-constraint-date>2018-07-30T05:00:00.000Z</end-constraint-date>
+    <prerequisite-task idref="t11"/>
+    <assignment idref="r1"/>
+    <end-no-later-than>2018-07-30T05:00:00.000Z</end-no-later-than>
+  </task>
+  <task id="t13">
+    <title>Project presentation</title>
+    <leveled-start>2018-07-25T01:00:00.000Z</leveled-start>
+    <effort>18000</effort>
+    <end-constraint-date>2018-07-30T05:00:00.000Z</end-constraint-date>
+    <prerequisite-task idref="t11" kind="FF"/>
+    <assignment idref="r1"/>
+    <end-no-later-than>2018-07-30T05:00:00.000Z</end-no-later-than>
+  </task>
+  <task id="t21">
+    <title>Build survey</title>
+    <leveled-start>2018-06-19T00:00:00.000Z</leveled-start>
+    <effort>25200</effort>
+    <end-constraint-date>2018-07-09T05:00:00.000Z</end-constraint-date>
+    <assignment idref="r1"/>
+    <end-no-later-than>2018-07-09T05:00:00.000Z</end-no-later-than>
+  </task>
+  <task id="t25">
+    <title>Distribute survey</title>
+    <leveled-start>2018-07-01T17:00:00.000Z</leveled-start>
+    <effort>32400</effort>
+    <prerequisite-task idref="t1271"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t26">
+    <title>Compile results, analyze</title>
+    <effort>21600</effort>
+    <start-constraint-date>2018-07-18T05:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t25"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2018-07-18T05:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t1026">
+    <title>Weekly Status Checks</title>
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t4"/>
+    <child-task idref="t6"/>
+    <child-task idref="t7"/>
+    <child-task idref="t8"/>
+  </task>
+  <task id="t1028">
+    <title>Intermediate Milestones</title>
+    <type>group</type>
+    <child-task idref="t9"/>
+    <child-task idref="t10"/>
+  </task>
+  <task id="t1029">
+    <title>Final Deliverables</title>
+    <type>group</type>
+    <child-task idref="t12"/>
+    <child-task idref="t11"/>
+    <child-task idref="t13"/>
+  </task>
+  <task id="t1031">
+    <title>Broad Developer Survey</title>
+    <type>group</type>
+    <child-task idref="t21"/>
+    <child-task idref="t1271"/>
+    <child-task idref="t25"/>
+    <child-task idref="t26"/>
+    <child-task idref="t1044"/>
+  </task>
+  <task id="t1044">
+    <title>Document process and conclusions</title>
+    <effort>10800</effort>
+    <prerequisite-task idref="t26"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t1135">
+    <title>Detailed Developer Survey</title>
+    <type>group</type>
+    <child-task idref="t1144"/>
+    <child-task idref="t1252"/>
+    <child-task idref="t1153"/>
+    <child-task idref="t1158"/>
+    <child-task idref="t1163"/>
+  </task>
+  <task id="t1144">
+    <title>Build survey</title>
+    <leveled-start>2018-06-21T01:00:00.000Z</leveled-start>
+    <effort>25200</effort>
+    <end-constraint-date>2018-07-01T05:00:00.000Z</end-constraint-date>
+    <assignment idref="r1"/>
+    <end-no-later-than>2018-07-01T05:00:00.000Z</end-no-later-than>
+  </task>
+  <task id="t1153">
+    <title>Conduct survey interviews</title>
+    <leveled-start>2018-07-08T16:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <prerequisite-task idref="t1252"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t1158">
+    <title>Compile results, analyze</title>
+    <leveled-start>2018-07-12T02:00:00.000Z</leveled-start>
+    <effort>21600</effort>
+    <prerequisite-task idref="t1153"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t1163">
+    <title>Document process and conclusions</title>
+    <leveled-start>2018-07-17T00:00:00.000Z</leveled-start>
+    <effort>10800</effort>
+    <prerequisite-task idref="t1158"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t1252">
+    <title>Incorporate feedback</title>
+    <leveled-start>2018-06-29T02:00:00.000Z</leveled-start>
+    <effort>7200</effort>
+    <prerequisite-task idref="t9"/>
+    <prerequisite-task idref="t1144"/>
+    <assignment idref="r1"/>
+  </task>
+  <task id="t1271">
+    <title>Incorporate feedback</title>
+    <leveled-start>2018-06-29T00:00:00.000Z</leveled-start>
+    <effort>7200</effort>
+    <prerequisite-task idref="t9"/>
+    <prerequisite-task idref="t21"/>
+    <assignment idref="r1"/>
+  </task>
+  <critical-path root="-1" enabled="false" resources="true">
+    <color space="srgb" r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>

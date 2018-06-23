@@ -13,8 +13,8 @@ jobs:
       - run:
           name: Generate assignment 2
           command: |
-            pandoc --filter pandoc-citeproc assignment-2.md -o assignment-2.pdf
-            pandoc --filter pandoc-citeproc assignment-2.md -o assignment-2.epub
+            pandoc --filter pandoc-citeproc --bibliography assignment-2.bibtex assignment-2.md -o assignment-2.pdf
+            pandoc --filter pandoc-citeproc --bibliography assignment-2.bibtex assignment-2.md -o assignment-2.epub
       - run:
           name: Generate assignment 3
           command: |
