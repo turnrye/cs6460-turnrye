@@ -21,6 +21,11 @@
     <change idref="t1252" attribute="resourceLeveledDate" type="date" from="2018-07-01T16:00:00.000Z" to="2018-06-29T02:00:00.000Z" resolved="yes"/>
     <change idref="t1271" attribute="resourceLeveledDate" type="date" from="2018-06-29T02:00:00.000Z" to="2018-06-29T00:00:00.000Z" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-25T02:35:31.539Z" timestamp="2018-06-25T02:35:31.539Z">
+    <change idref="t1" attribute="internalEffortDone" type="real" from="0" to="1800" resolved="yes"/>
+    <change idref="t21" attribute="internalEffortDone" type="real" from="0" to="3024" resolved="yes"/>
+    <change idref="t1144" attribute="internalEffortDone" type="real" from="0" to="3024" resolved="yes"/>
+  </task-change-set>
   <metadata-change-set user="Ryan Turner" date="2018-06-23T21:42:08.423Z" timestamp="2018-06-23T21:42:08.423Z">
     <change idref="m1" attribute="autoLevelResources" type="real" from="1" to="0"/>
   </metadata-change-set>

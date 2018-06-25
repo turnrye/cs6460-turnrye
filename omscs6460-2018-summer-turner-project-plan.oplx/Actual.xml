@@ -90,6 +90,7 @@
     <title>Weekly Status Check 1</title>
     <leveled-start>2018-06-24T17:00:00.000Z</leveled-start>
     <effort>1800</effort>
+    <effort-done>1800</effort-done>
     <start-constraint-date>2018-06-23T05:00:00.000Z</start-constraint-date>
     <end-constraint-date>2018-06-25T05:00:00.000Z</end-constraint-date>
     <assignment idref="r1"/>
@@ -199,6 +200,7 @@
     <title>Build survey</title>
     <leveled-start>2018-06-19T00:00:00.000Z</leveled-start>
     <effort>25200</effort>
+    <effort-done>3024</effort-done>
     <end-constraint-date>2018-07-09T05:00:00.000Z</end-constraint-date>
     <assignment idref="r1"/>
     <end-no-later-than>2018-07-09T05:00:00.000Z</end-no-later-than>
@@ -268,6 +270,7 @@
     <title>Build survey</title>
     <leveled-start>2018-06-21T01:00:00.000Z</leveled-start>
     <effort>25200</effort>
+    <effort-done>3024</effort-done>
     <end-constraint-date>2018-07-01T05:00:00.000Z</end-constraint-date>
     <assignment idref="r1"/>
     <end-no-later-than>2018-07-01T05:00:00.000Z</end-no-later-than>
