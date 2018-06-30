@@ -21,10 +21,15 @@ jobs:
             pandoc --filter pandoc-citeproc assignment-3.md -o assignment-3.pdf
             pandoc --filter pandoc-citeproc assignment-3.md -o assignment-3.epub
       - run:
-          name: Generate qualifier question
+          name: Generate project proposal
           command: |
             pandoc --filter pandoc-citeproc --bibliography project-proposal.bibtex project-proposal.md -o project-proposal.pdf
             pandoc --filter pandoc-citeproc --bibliography project-proposal.bibtex project-proposal.md -o project-proposal.epub
+      - run:
+          name: Generate milestone 1
+          command: |
+            pandoc --filter pandoc-citeproc --bibliography milestone-1.bibtex milestone-1.md -o milestone-1.pdf
+            pandoc --filter pandoc-citeproc --bibliography milestone-1.bibtex milestone-1.md -o milestone-1.epub
       - store_artifacts:
           path: /root/project/assignment-1.pdf
       - store_artifacts:
@@ -41,3 +46,7 @@ jobs:
           path: /root/project/project-proposal.pdf
       - store_artifacts:
           path: /root/project/project-proposal.epub
+      - store_artifacts:
+          path: /root/project/milestone-1.pdf
+      - store_artifacts:
+          path: /root/project/milestone-1.epub

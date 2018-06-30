@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="opY_I7XVTW5">
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="mwThES8Ewnd">
   <start-date>2018-06-18T05:00:00.000Z</start-date>
   <granularity>hours</granularity>
   <prototype-task>
@@ -160,7 +160,6 @@
     <effort>10800</effort>
     <min-estimate>5400</min-estimate>
     <max-estimate>16200</max-estimate>
-    <effort-done>10800</effort-done>
     <start-constraint-date>2018-06-27T05:00:00.000Z</start-constraint-date>
     <end-constraint-date>2018-07-02T05:00:00.000Z</end-constraint-date>
     <prerequisite-task idref="t1"/>
@@ -312,7 +311,6 @@
     <effort>28800</effort>
     <min-estimate>14400</min-estimate>
     <max-estimate>43200</max-estimate>
-    <prerequisite-task idref="t25"/>
     <prerequisite-task idref="t1252"/>
     <assignment idref="r1"/>
   </task>

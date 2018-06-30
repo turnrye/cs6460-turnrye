@@ -11,28 +11,23 @@
     <change idref="t1252" attribute="resourceLeveledDate" type="date" from="2018-06-29T02:00:00.000Z" to="2018-07-01T16:00:00.000Z"/>
     <change idref="t1271" attribute="resourceLeveledDate" type="date" from="2018-06-29T00:00:00.000Z" to="2018-06-29T02:00:00.000Z"/>
   </task-change-set>
-  <task-change-set user="Ryan Turner" date="2018-06-23T21:43:01.900Z" timestamp="2018-06-23T21:43:01.900Z">
-    <change idref="t1" attribute="resourceLeveledDate" type="date" from="2018-06-24T15:00:00.000Z" to="2018-06-24T17:00:00.000Z" resolved="yes"/>
-    <change idref="t4" attribute="resourceLeveledDate" type="date" from="2018-07-03T00:00:00.000Z" to="2018-07-01T16:00:00.000Z" resolved="yes"/>
-    <change idref="t9" attribute="resourceLeveledDate" type="date" from="2018-06-28T02:00:00.000Z" to="2018-06-28T00:00:00.000Z" resolved="yes"/>
-    <change idref="t21" attribute="resourceLeveledDate" type="date" from="2018-06-24T16:00:00.000Z" to="2018-06-19T00:00:00.000Z" resolved="yes"/>
-    <change idref="t25" attribute="resourceLeveledDate" type="date" from="2018-07-03T01:00:00.000Z" to="2018-07-01T17:00:00.000Z" resolved="yes"/>
-    <change idref="t1144" attribute="resourceLeveledDate" type="date" from="2018-06-27T02:00:00.000Z" to="2018-06-21T01:00:00.000Z" resolved="yes"/>
-    <change idref="t1252" attribute="resourceLeveledDate" type="date" from="2018-07-01T16:00:00.000Z" to="2018-06-29T02:00:00.000Z" resolved="yes"/>
-    <change idref="t1271" attribute="resourceLeveledDate" type="date" from="2018-06-29T02:00:00.000Z" to="2018-06-29T00:00:00.000Z" resolved="yes"/>
+  <task-change-set user="Ryan Turner" date="2018-06-30T00:14:36.829Z" timestamp="2018-06-30T00:14:36.829Z">
+    <change idref="t1144" attribute="internalEffortDone" type="real" from="3024" to="25200" resolved="yes"/>
+    <change idref="t1252" attribute="noEarlierThanConstrainedTaskEnd" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1252" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-05T05:00:00.000Z" resolved="yes"/>
+    <change idref="t1271" attribute="noEarlierThanConstrainedTaskEnd" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1271" attribute="noEarlierThanConstraintDate" type="date" to="2018-07-05T05:00:00.000Z" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="Ryan Turner" date="2018-06-25T02:35:31.539Z" timestamp="2018-06-25T02:35:31.539Z">
-    <change idref="t1" attribute="internalEffortDone" type="real" from="0" to="1800" resolved="yes"/>
-    <change idref="t21" attribute="internalEffortDone" type="real" from="0" to="3024" resolved="yes"/>
-    <change idref="t1144" attribute="internalEffortDone" type="real" from="0" to="3024" resolved="yes"/>
+  <task-change-set user="Ryan Turner" date="2018-06-30T01:18:59.281Z" timestamp="2018-06-30T01:18:59.281Z">
+    <change idref="t1153" attribute="internalPrerequisitesString" type="string" from="1252FS" to="25FS, 1252FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-30T01:37:27.244Z" timestamp="2018-06-30T01:37:27.244Z">
+    <change idref="t9" attribute="internalEffortDone" type="real" from="0" to="10800" resolved="yes"/>
   </task-change-set>
   <metadata-change-set user="Ryan Turner" date="2018-06-23T21:42:08.423Z" timestamp="2018-06-23T21:42:08.423Z">
     <change idref="m1" attribute="autoLevelResources" type="real" from="1" to="0"/>
   </metadata-change-set>
-  <metadata-change-set user="Ryan Turner" date="2018-06-23T21:43:01.899Z" timestamp="2018-06-23T21:43:01.899Z">
-    <change idref="m1" attribute="levelConstrainsCompletionDate" type="real" from="1" to="0" resolved="yes"/>
-  </metadata-change-set>
-  <metadata-change-set user="Ryan Turner" date="2018-06-23T21:43:09.082Z" timestamp="2018-06-23T21:43:09.082Z">
-    <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;Baseline 6/23/18&quot;;&#10;            uuid = aEEAJeiA3nR;&#10;        }&#10;    );&#10;}" resolved="yes"/>
+  <metadata-change-set user="Ryan Turner" date="2018-06-30T00:14:40.680Z" timestamp="2018-06-30T00:14:40.680Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{&#10;    info =     (&#10;                {&#10;            name = &quot;Baseline 6/23/18&quot;;&#10;            uuid = aEEAJeiA3nR;&#10;        }&#10;    );&#10;}" to="{&#10;    info =     (&#10;                {&#10;            name = &quot;Baseline 6/23/18&quot;;&#10;            uuid = aEEAJeiA3nR;&#10;        },&#10;                {&#10;            name = &quot;Baseline 6/29/18&quot;;&#10;            uuid = mwThES8Ewnd;&#10;        }&#10;    );&#10;}" resolved="yes"/>
   </metadata-change-set>
 </changelog>
