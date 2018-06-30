@@ -105,6 +105,7 @@
     <effort>1800</effort>
     <min-estimate>900</min-estimate>
     <max-estimate>2700</max-estimate>
+    <effort-done>1800</effort-done>
     <start-constraint-date>2018-06-29T05:00:00.000Z</start-constraint-date>
     <end-constraint-date>2018-07-03T00:30:00.000Z</end-constraint-date>
     <prerequisite-task idref="t1"/>

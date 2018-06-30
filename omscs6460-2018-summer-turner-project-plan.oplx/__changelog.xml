@@ -24,6 +24,9 @@
   <task-change-set user="Ryan Turner" date="2018-06-30T01:37:27.244Z" timestamp="2018-06-30T01:37:27.244Z">
     <change idref="t9" attribute="internalEffortDone" type="real" from="0" to="10800" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Ryan Turner" date="2018-06-30T02:32:43.947Z" timestamp="2018-06-30T02:32:43.947Z">
+    <change idref="t4" attribute="internalEffortDone" type="real" from="0" to="1800" resolved="yes"/>
+  </task-change-set>
   <metadata-change-set user="Ryan Turner" date="2018-06-23T21:42:08.423Z" timestamp="2018-06-23T21:42:08.423Z">
     <change idref="m1" attribute="autoLevelResources" type="real" from="1" to="0"/>
   </metadata-change-set>
