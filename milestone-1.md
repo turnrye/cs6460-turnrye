@@ -2,7 +2,6 @@
 title: "Milestone 1 - Progress Report"
 date: "June 2018"
 author: "Ryan Turner"
-fontfamily: libertine
 ---
 
 # Background
