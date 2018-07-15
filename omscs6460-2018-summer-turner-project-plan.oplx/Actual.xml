@@ -178,6 +178,7 @@
     <effort>7200</effort>
     <min-estimate>3600</min-estimate>
     <max-estimate>10800</max-estimate>
+    <effort-done>3600</effort-done>
     <start-constraint-date>2018-07-11T05:00:00.000Z</start-constraint-date>
     <end-constraint-date>2018-07-16T05:00:00.000Z</end-constraint-date>
     <prerequisite-task idref="t6"/>
@@ -236,7 +237,7 @@
     <effort>32400</effort>
     <min-estimate>16200</min-estimate>
     <max-estimate>48600</max-estimate>
-    <effort-done>24300</effort-done>
+    <effort-done>32400</effort-done>
     <prerequisite-task idref="t1271"/>
     <assignment idref="r1"/>
   </task>

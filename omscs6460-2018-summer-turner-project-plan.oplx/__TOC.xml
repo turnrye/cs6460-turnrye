@@ -13,9 +13,9 @@
         <column name="Notes" width="20"/>
         <column name="Title" width="191"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t1135 t1031 t1026 t1029 t1028"/>
+        <expanded-items idrefs="t1135 t1031 t1029 t1026 t1028"/>
       </outline>
-      <gantt-view x="0" y="0" w="1042" h="903">
+      <gantt-view x="-47" y="0" w="1042" h="903">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
