@@ -74,7 +74,9 @@ My goal is to interview 8 individuals using the script below. There were 18 resp
 
 ![](diagrams/tool-usage-and-helpfulness.png)
 
-From the diagrams above, there are three conclusions that I draw: blog articles have the highest completion rate, online courses and peer discussion are the most helpful learning tools, and even in a rapidly changing framework most of the learning is for reasons besides change.
+![](diagrams/how-soon-used.png)
+
+From the diagrams above, there are three conclusions that I draw: blog articles have the highest completion rate, online courses and peer discussion are the most helpful learning tools, even in a rapidly changing framework most of the learning is for reasons besides change, and learnings most often are immediately put to use.
 
 Based off of my personal anecdote, most blog articles in this community are estimated to take somewhere between 5 and 20 minutes long to read. One of the potential benefits is that one topic can be taught using multiple pedagogies like project and problem based learning. Additionally, the format lends itself to discovering it both just-in-time for use (to help solve a problem) as well as for potential future use (by subscribing to a website). I suspect that these factors may contribute to why blog articles are successful in being completed.
 
@@ -84,6 +86,12 @@ Online courses and peer discussion were disproportionately selected as the most 
 
 Interesting as well, this survey found that nearly 2/3 of learners reported that their learning took place for reasons other than change. I'm interested to consider how the responses change as users report varying levels of experience (daily users vs first time users); this analysis is still yet to be completed.
 
+Finally, regardless of whether you're a framework user daily or have just researched it, the material you learn is immediately put to use. Over half of the responses were this way.
+
 Regression analysis will be performed this week to consider how prior formal education or specific tools may cause different learning outcomes.
+
+# Next Steps
+
+My next steps include performing the interviews and finishing the analysis of the survey data. Once both of those are complete, I will begin preparing my final materials.
 
 # References
