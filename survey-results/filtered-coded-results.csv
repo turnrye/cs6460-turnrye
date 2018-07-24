@@ -1,0 +1,39 @@
+﻿experience,formal_study,js_experience,rn_familiarity,stack_overflow,blog,microblog,online_class,book,peer_discussion,hackathon,professional_workshop,university_class,documentation,reference_implementation,source_code,chat,percent_time_spent_learning,best_tool,how_soon_was_it_used,was_learning_in_response_to_change,completed_learning_unit,needs_satisfied
+2,1,1,0,1,1,1,1,1,1,0,1,1,1,1,0,0,0.5,0,Immediately,No,0,5
+1,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0.3,3,It was within a day or so,No,0,3
+2,1,1,2,1,0,0,1,1,1,1,1,1,1,1,0,0,0.8,4,Immediately,No,1,5
+2,1,1,0,1,0,0,1,1,0,0,0,1,1,0,0,0,0.1,0,It was within a day or so,Yes,1,3
+1,0,0,0,1,1,0,1,0,1,0,0,0,1,1,0,0,0.1,0,Immediately,Yes,0,5
+2,1,1,0,1,1,0,0,0,1,0,0,0,1,1,0,0,0.05,1,It was within a day or so,No,1,4
+1,1,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0.05,0,Immediately,No,0,4
+2,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0.05,5,I haven't used it yet,No,0,2
+1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0.1,3,I haven't used it yet,Yes,0,3
+2,1,0,0,1,0,0,1,1,1,0,1,1,1,1,0,0,0.2,5,Many days later,Yes,1,4
+2,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0.5,1,Immediately,Yes,1,5
+2,0,1,2,1,0,0,1,0,0,0,0,0,0,0,0,0,0.5,3,"I was already using it, but I learned more",Yes,1,3
+2,1,1,3,1,1,1,0,0,1,0,0,0,1,1,1,0,0.3,7,Immediately,No,0,3
+2,0,2,3,1,1,1,1,0,0,0,0,0,1,1,0,0,0.2,1,Immediately,No,1,4
+0,0,1,2,1,1,0,0,0,0,0,0,0,1,0,0,0,0.3,5,Immediately,No,0,4
+2,1,1,3,0,1,1,0,0,0,0,0,0,1,1,0,0,0.05,2,Many days later,No,0,4
+2,1,2,1,1,1,0,0,0,1,0,0,0,1,1,0,1,0.5,4,Immediately,No,0,4
+2,1,1,2,1,1,0,0,0,0,0,0,0,1,1,0,0,0.3,6,It was within a day or so,No,1,4
+2,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0.05,0,Immediately,Yes,0,3
+2,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0.05,4,Immediately,Yes,0,3
+2,1,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0.2,0,Immediately,Yes,0,5
+2,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0.05,0,I haven't used it yet,No,0,2
+2,1,1,0,1,1,0,1,1,1,0,0,1,1,1,0,0,0.1,5,Immediately,No,1,4
+2,1,0,2,1,1,1,0,0,1,0,0,0,1,1,0,0,0.5,6,It was within a day or so,No,0,4
+2,1,0,1,1,1,0,0,0,1,0,0,0,1,1,0,0,0.5,5,Immediately,No,0,3
+2,1,1,2,1,1,0,0,0,1,0,0,0,0,0,0,0,0.05,0,"I was already using it, but I learned more",No,0,4
+2,0,2,3,1,1,0,0,0,0,0,0,0,1,1,0,0,0.2,0,Immediately,No,0,4
+2,1,0,2,1,1,0,0,0,1,0,0,0,1,1,0,0,0.1,1,"I was already using it, but I learned more",No,1,4
+2,1,1,0,1,0,0,1,1,1,0,1,1,1,0,0,0,0.3,4,Immediately,Yes,0,4
+2,1,0,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0.2,1,It was within a day or so,No,1,4
+2,0,1,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0.1,4,Immediately,No,1,5
+2,1,1,1,0,1,0,1,0,0,0,0,0,1,0,0,0,0.2,3,"I was already using it, but I learned more",Yes,0,4
+2,1,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0.8,3,Immediately,No,1,3
+1,1,0,1,1,1,1,1,0,0,0,0,0,1,1,0,1,0.5,3,Immediately,No,0,5
+2,1,0,2,1,1,0,1,0,1,1,0,0,1,1,0,0,0.5,5,Immediately,Yes,1,4
+1,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0.05,4,Many days later,Yes,0,2
+2,0,2,0,1,1,1,0,0,1,0,0,0,1,1,0,0,0.3,1,Immediately,No,1,4
+2,1,2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0.05,1,I haven't used it yet,No,0,3
