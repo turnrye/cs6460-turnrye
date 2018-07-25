@@ -16,7 +16,7 @@ author: "Ryan Turner"
 
 # Work Status
 
-Consistent with the published [project plan](http://turnrye.com/cs6460-turnrye/project-plan/index.html), this project is on schedule. The questionnaire survey has completed distribution, and some preliminary results have been compiled. The raw survey responses have been uploaded to [the repository](http://turnrye.com/cs6460-turnrye/survey-responses.csv). The next step is to complete the interview surveys.
+Consistent with the published [project plan](http://turnrye.com/learning-rapidly-changing-frameworks/project-plan/index.html), this project is on schedule. The questionnaire survey has completed distribution, and some preliminary results have been compiled. The raw survey responses have been uploaded to [the repository](http://turnrye.com/learning-rapidly-changing-frameworks/survey-responses.csv). The next step is to complete the interview surveys.
 
 # Interview Survey
 

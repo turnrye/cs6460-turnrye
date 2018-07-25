@@ -85,7 +85,7 @@ In the second milestone, the results and analysis from the first survey will be 
 
 ## Final Deliverables
 
-The final project materials will be in a public repository with the structured results from the surveys. It will be posted to Github in an easily consumed, OSS format, such as markdown documentation and csv results. This repository already exists today with source for all assignments, the project plan, and an export of the plan with progress noted. It can be found [here](http://turnrye.com/cs6460-turnrye/).
+The final project materials will be in a public repository with the structured results from the surveys. It will be posted to Github in an easily consumed, OSS format, such as markdown documentation and csv results. This repository already exists today with source for all assignments, the project plan, and an export of the plan with progress noted. It can be found [here](http://turnrye.com/learning-rapidly-changing-frameworks/).
 
 The final paper will present the findings with a format largely following this document's. The presentation will be a recording of the author presenting at a research and training session in his workplace.
 
