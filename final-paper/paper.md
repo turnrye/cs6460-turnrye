@@ -40,9 +40,13 @@ In the problem itself, the term "frameworks" is used. For the sake of this resea
 
 To better understand learning in this area, developers use of learning tools was reviewed. Ideally, developers would have been observed in their learning. Instead, a survey approach was taken. This is partly due to the feasibility to observing these interactions as well as the importance of capturing responses from an international audience. Finally, this approach permitted developers to report on their perceptions of the learning: why did it occur, how successful was it, and how soon was it put to use.
 
-The 
+For this research, the sample was limited to React Native practitioners and their use of the React Native framework. This helped the survey target a cohesive group of respondents, and the author's networking in the community aided in soliciting responses. React Native also is a widely used framework with the second highest contributor count on GitHub in 2017 [@githuboctoverse]. Its wide population of users coupled with its pre-stable status makes for an excellent case as a rapidly changing framework to study.
 
-The methodology tells the reader how you set about answering it. The important thing about the methodology is that exists separate and before the results: it tells the reader why they should trust the results.
+The questionnaire survey starts by asking about the respondent's experience professionally, formal learning in programming, experience with JavaScript, and familiarity with React Native. React Native familiarity was used as a filtering question; if the respondent indicated no familiarity, the survey ended.
+
+For respondents who were familiar with React Native, they were then asked questions about their learning and use in the previous 3 months. This was limited in order to avoid asking the respondent to describe experiences beyond recollection. First, the respondents were asked "What learning tools have you used? Check all that apply." 11 options for this question were presented, plus an unstructured other option. These options wildly varied between the formal and informal, small and large. Respondents were then asked to estimate how much of their time was spent learning as a percentage of their overall work. Next, they were asked what tool was the most useful to them. The remainder of the questions asked were limited to their use of that tool, seeking to understand when the learning took place, how it was used, and how beneficial it was.
+
+The respondent data was collected and then reviewed. Python *pandas* was utilized in order to interpret the data and send it to *Scipy.stats* module and *matplotlib* for analysis and visual representation. Using this approach, some basic counts and pivot tables provide insights to respondent's preferences, and analyses like the chi square test and the Kruskal Wallis test were utilized to calculate statistical significance on the data.
 
 # Results
 
