@@ -135,6 +135,7 @@
     <effort>1800</effort>
     <min-estimate>900</min-estimate>
     <max-estimate>2700</max-estimate>
+    <effort-done>1800</effort-done>
     <start-constraint-date>2018-07-13T05:00:00.000Z</start-constraint-date>
     <end-constraint-date>2018-07-16T05:00:00.000Z</end-constraint-date>
     <prerequisite-task idref="t6"/>
@@ -148,6 +149,7 @@
     <effort>1800</effort>
     <min-estimate>900</min-estimate>
     <max-estimate>2700</max-estimate>
+    <effort-done>1800</effort-done>
     <start-constraint-date>2018-07-20T05:00:00.000Z</start-constraint-date>
     <end-constraint-date>2018-07-23T22:00:00.000Z</end-constraint-date>
     <prerequisite-task idref="t7"/>
@@ -178,7 +180,7 @@
     <effort>7200</effort>
     <min-estimate>3600</min-estimate>
     <max-estimate>10800</max-estimate>
-    <effort-done>3600</effort-done>
+    <effort-done>7200</effort-done>
     <start-constraint-date>2018-07-11T05:00:00.000Z</start-constraint-date>
     <end-constraint-date>2018-07-16T05:00:00.000Z</end-constraint-date>
     <prerequisite-task idref="t6"/>
@@ -192,6 +194,7 @@
     <effort>10800</effort>
     <min-estimate>5400</min-estimate>
     <max-estimate>16200</max-estimate>
+    <effort-done>5400</effort-done>
     <end-constraint-date>2018-07-30T05:00:00.000Z</end-constraint-date>
     <prerequisite-task idref="t1044" kind="FF"/>
     <prerequisite-task idref="t1163" kind="FF"/>
@@ -204,6 +207,7 @@
     <effort>18000</effort>
     <min-estimate>9000</min-estimate>
     <max-estimate>27000</max-estimate>
+    <effort-done>3600</effort-done>
     <end-constraint-date>2018-07-30T05:00:00.000Z</end-constraint-date>
     <prerequisite-task idref="t11"/>
     <assignment idref="r1"/>
@@ -246,6 +250,7 @@
     <effort>21600</effort>
     <min-estimate>10800</min-estimate>
     <max-estimate>32400</max-estimate>
+    <effort-done>21600</effort-done>
     <start-constraint-date>2018-07-18T05:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t25"/>
     <assignment idref="r1"/>
@@ -287,6 +292,7 @@
     <effort>10800</effort>
     <min-estimate>5400</min-estimate>
     <max-estimate>16200</max-estimate>
+    <effort-done>5400</effort-done>
     <prerequisite-task idref="t26"/>
     <assignment idref="r1"/>
   </task>
@@ -316,6 +322,7 @@
     <effort>28800</effort>
     <min-estimate>14400</min-estimate>
     <max-estimate>43200</max-estimate>
+    <effort-done>2880</effort-done>
     <prerequisite-task idref="t25"/>
     <prerequisite-task idref="t1252"/>
     <assignment idref="r1"/>
