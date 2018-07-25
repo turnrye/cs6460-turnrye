@@ -8,7 +8,7 @@ import scipy.stats as stats
 import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
 
-df = pd.read_csv("filtered-coded-results.csv", delimiter=",")
+df = pd.read_csv("survey-results-filtered-coded.csv", delimiter=",")
 
 def calculate_total_tool_usages():
     total_usages = df[['stack_overflow','blog','microblog','online_class','book','peer_discussion','hackathon','professional_workshop','university_class','documentation','reference_implementation','source_code','chat']].sum(axis=0)
