@@ -81,8 +81,11 @@ def learning_in_response_to_change():
     coded_results = df['was_learning_in_response_to_change'].value_counts()
     print '## Learning in Response to Change'
     print coded_results
-    learning_plot = coded_results.plot(kind='pie', title='Was Learning in Response to Change', colormap='Set3')
+    learning_plot = coded_results.plot(kind='pie', title='Was Learning in Response to Change', colormap='Set3', autopct='%1.1f%%', labels=None, shadow=True, startangle=90)
     learning_figure = learning_plot.get_figure()
+    learning_plot.legend(coded_results.index, loc='best', prop={'size': 8})
+    learning_plot.set_ylabel("")
+    learning_plot.axis('equal')
     learning_figure.set_tight_layout(True)
     learning_figure.savefig("learning_in_response_to_change.pdf")
     plt.close()

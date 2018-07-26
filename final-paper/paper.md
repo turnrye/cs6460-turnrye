@@ -52,15 +52,25 @@ The respondent data was collected and then reviewed. Python *pandas* was utilize
 
 What was the result of the investigation or evaluation? This is typically what the entire paper is building toward: some assertion that the solution worked or some answer to the question that was raised.
 
-![Snapshot of the resource timeline, taken from the repository](../survey-results/tool_usage.pdf)
-![Snapshot of the resource timeline, taken from the repository](../survey-results/best_tool.pdf)
-![Snapshot of the resource timeline, taken from the repository](../survey-results/completion_by_tool.pdf)
-![Snapshot of the resource timeline, taken from the repository](../survey-results/how_soon_was_it_used.pdf)
-![Snapshot of the resource timeline, taken from the repository](../survey-results/learning_in_response_to_change.pdf)
+![Snapshot of the resource timeline, taken from the repository](../survey-results/tool_usage.pdf "test"){ width=50% height=40% }
+![Snapshot of the resource timeline, taken from the repository](../survey-results/best_tool.pdf "test"){ width=50% height=40% }
+![Snapshot of the resource timeline, taken from the repository](../survey-results/completion_by_tool.pdf "test"){ width=50% height=40% }
+![Snapshot of the resource timeline, taken from the repository](../survey-results/how_soon_was_it_used.pdf "test"){ width=50% height=40% }
+![Snapshot of the resource timeline, taken from the repository](../survey-results/learning_in_response_to_change.pdf "test"){ width=50% height=40% }
 
 # Limitations
 
-Another underappreciated section of any strong paper: the limitations section clearly articulates exactly how generalizable the conclusions are. For example, if work was done in the context of a middle school, then the results may only be generalizable to middle schools. If there were clear potential lurking variables in the methodology, then those would be disclosed here. The importance of the limitations section is that it clearly and honestly articulates how far the contribution goes. In my experience, any limitation you identify will not be held against your paper, but if the reviewers have limitations you don't acknowledge, they'll be far more reluctant to accept the contribution. This is what separates research from advertising.
+This research surveyed the community that uses React Native. Both the way the data was collected and the population surveyed present as limitations. While this work may apply to other web or mobile frameworks, some of the presumptions made may not match those for other tools.
+
+In the sample used for this work, the social norms practiced by the developers may show favoritism to specific tools and methods of consumption. React Native was originally developed and is presently supported by Facebook [@facebook], a social networking company. On the developer support page, Stack Overflow, forums, chat, and microblogs are all suggested as ways to get help [@facebook]. As a result of the framework's recognition of these, other tools may be at a disadvantage. In fact, as of July 2018, there are no references to books or courses in the support documentation.
+
+Additionally, React Native shares a lot in common with ReactJS, a JavaScript web frontend framework. Users of React Native often come from a web development background, which has many differences with software development. Detailed analysis of the difference can be found in @mendes2014web, but of specific interest are differences in application characteristics, people involved in development, and social issues.
+
+The challenges of React Native's mission also limit the application of this research. React Native ultimately creates iOS and Android mobile applications and relies on their native APIs to enable much of its functionality. The learner frequently is required to learn about these upstream projects, which expands the scope of learning beyond what other frameworks may require. This also puts users in the position of watching and anticipating changes in the parent APIs in order to better plan their work in React Native, such as recently with React Native's [0.56 release](https://github.com/react-native-community/react-native-releases/blob/master/CHANGELOG.md#056) that responds to many previously announced changes, like new versions of Babel, iOS API, Xcode IDE, and Android SDK. Developers working on the React Native platform are sometimes forced to learn just-in-time with the framework's change even though it's highly anticipated; learners of frameworks with simpler dependency trees may not be forced into this pattern.
+
+This research was conducted by surveys alone, which limited how the subjects were interrogated. To help increase response rate, the length of the survey was limited. Respondents were asked detailed questions only about their most useful tool; responses on tools that weren't highly favored by the respondent may reveal other usage patterns. Additionally, in making the survey straight forward for the respondents, some statistical analysis was complicated. More traditional survey design may lead to cleaner results.
+
+Finally, some aspects of the survey asked about a 90 day time period. This is a long time for respondents to recollect, so there may be inaccuracies in respondent reporting. Additionally, within this time period learning may have occurred for a variety of reasons. Respondents were asked about a single occurrence, not the entire set. The problems faced may be related to current events in the framework, like a defect in the most recent release or an emerging trend in user interface design. These specific, widespread cases may skew the responses to the learning patterns that best address that issue rather than issues in general.
 
 # Conclusion
 
