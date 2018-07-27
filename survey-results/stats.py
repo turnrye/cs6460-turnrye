@@ -14,6 +14,8 @@ def calculate_total_tool_usages():
     total_usages = df[['stack_overflow','blog','microblog','online_class','book','peer_discussion','hackathon','professional_workshop','university_class','documentation','reference_implementation','source_code','chat']].sum(axis=0)
     print "## Tool Usage"
     print total_usages
+    print "### Total sample count"
+    print total_usages.sum()
     print ''
     usage_plot = total_usages.plot(kind='bar', title='Tool Usage in Past 3 Months', colormap='Set3')
     usage_plot.set_xlabel("")
@@ -81,7 +83,7 @@ def learning_in_response_to_change():
     coded_results = df['was_learning_in_response_to_change'].value_counts()
     print '## Learning in Response to Change'
     print coded_results
-    learning_plot = coded_results.plot(kind='pie', title='Was Learning in Response to Change', colormap='Set3', autopct='%1.1f%%', labels=None, shadow=True, startangle=90)
+    learning_plot = coded_results.plot(kind='pie', title='Was Learning in Response to Change', colormap='Set3', autopct='%1.1f%%', labels=None, shadow=True)
     learning_figure = learning_plot.get_figure()
     learning_plot.legend(coded_results.index, loc='best', prop={'size': 8})
     learning_plot.set_ylabel("")
@@ -95,7 +97,7 @@ def how_soon_was_it_used():
     coded_results = df['how_soon_was_it_used'].value_counts()
     print '## How Soon Was It Used'
     print coded_results
-    learning_plot = coded_results.plot(kind='pie', title='How Soon Was It Used', colormap='Set3', autopct='%1.1f%%', labels=None, shadow=True, startangle=90)
+    learning_plot = coded_results.plot(kind='pie', title='How Soon Was It Used', colormap='Set3', autopct='%1.1f%%', labels=None, shadow=True)
     learning_plot.set_ylabel("")
     learning_plot.legend(coded_results.index, loc='best', prop={'size': 8})
     learning_plot.axis('equal')

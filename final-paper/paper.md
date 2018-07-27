@@ -50,13 +50,37 @@ The respondent data was collected and then reviewed. Python *pandas* was utilize
 
 # Results
 
-What was the result of the investigation or evaluation? This is typically what the entire paper is building toward: some assertion that the solution worked or some answer to the question that was raised.
+Overall, 38 subjects provided qualified survey results. In this section, answers to the three research questions are presented, as well as some general trends identified in the data. At the end of each subsection, the data is briefly summarized.
 
-![Snapshot of the resource timeline, taken from the repository](../survey-results/tool_usage.pdf "test"){ width=50% height=40% }
-![Snapshot of the resource timeline, taken from the repository](../survey-results/best_tool.pdf "test"){ width=50% height=40% }
-![Snapshot of the resource timeline, taken from the repository](../survey-results/completion_by_tool.pdf "test"){ width=50% height=40% }
-![Snapshot of the resource timeline, taken from the repository](../survey-results/how_soon_was_it_used.pdf "test"){ width=50% height=40% }
-![Snapshot of the resource timeline, taken from the repository](../survey-results/learning_in_response_to_change.pdf "test"){ width=50% height=40% }
+## Specific tools are preferred, but usage doesn't necessarily follow
+
+Respondents indicated 172 different instances of tool usages in the past 3 months. Developers showed that specific tools were used more frequently than others. A chi-squared test comparing the results to a normal distribution resulted in $p=5.80\times 10^{-18}$. Clear leaders in tool usage included Stack Overflow, Blogs, and Documentation. Online classes, peer discussion, and examples were middle of the pack performers. The least commonly used tools included source code, hackathons, chat, workshops, university courses, books, and microblogs. The tool usage frequency is indicated in figure \ref{toolUsage}.
+
+![A clear preference for specific learning tools emerged. \label{toolUsage}](../survey-results/tool_usage.pdf){ width=50% height=40% }
+
+Each subject was asked to indicate a single preferred learning tool. A chi-squared test comparing the results to a normal distribution resulted in $p=0.063$. There was a clearer split between winners and losers in this area; the winners were clearly stack overflow, blogs, online classes, books, and peer discussion; all other tools had significantly less learner preference. Documentation and examples, which showed average and above average usage occurrence, notably received no selections. The tool usage frequency is indicated in figure \ref{toolPreference}, with categories that received no selections omitted.
+
+Some selections like hackathons, workshops, and microblogs were indicated as favorites by their only users. This is likely a result of users having an individual recent or highly significant learning session rather than a recurring learning pattern.
+
+![Developers indicated more polarized tool preference than usage. \label{toolPreference}](../survey-results/best_tool.pdf){ width=50% height=40% }
+
+## Most learning was applied the same day
+
+In the general case, over the same 3 month time period respondents indicated how soon they used what they learned. $55.3\%$ of respondents indicated that it was immediately put to use. The second most common delay was a day or so at $15.8\%$. The remainder of responses was nearly evenly split between many days, not yet, and it was to explain an existing usage. For specific occurrences, refer to figure \ref{howSoon}.
+
+![Nearly three-quarters of usage occurred within a day. \label{howSoon}](../survey-results/how_soon_was_it_used.pdf){ width=50% height=40% }
+
+While learners largely depending on just-in-time learning practices, the specific reasons for this weren't well understood. $34.2\%$ of learners were responding to changes in the framework as indicated in figure \ref{changeResponse}. Other reasons like new feature needs, inexperience, and curiosity weren't evaluated but likely contributed.
+
+![Over one-third of developers learning rapidly changing frameworks were doing so in response to a change in the framework. \label{changeResponse}](../survey-results/learning_in_response_to_change.pdf){ width=50% height=40% }
+
+## Learners generally don't complete the full learning unit, but it's still useful
+
+Learners generally did not complete their entire learning unit. TODO: add overall numbers.
+
+Learning module completion did vary by tool. Tools with fewer than 5 responses were removed due to sample size being too small. With the resulting dataset, a Kruskal-Wallis test comparing the number of completions vs non-completions grouped by tool resulted in $p=0.053$. Stack Overflow specifically showed an 8:1 ratio of non-completions to completions, while blogs showed 1:6. Online courses and peer discussions showed a 2:1 ratio, and documentation was even. Refer to figure \ref{completionByTool} for a visual representation.
+
+![Learning unit completion varied highly by tool. \label{completionByTool}](../survey-results/completion_by_tool.pdf){ width=50% height=40% }
 
 # Limitations
 
