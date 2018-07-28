@@ -8,7 +8,9 @@ The [final paper](final-paper/paper.pdf) represents the culmination of this effo
 
 ## Research
 
-The research data is available end-to-end. The [survey questions](survey-questions.pdf) are available for review. The [raw survey responses](survey-results/survey-responses-original.csv) are available, as well as the [source of the Pandas script](survey-results/stats.py) that generated the various results ([1](survey-results/best_tool.pdf), [2](survey-results/completion_by_tool.pdf), [3](survey-results/how_soon_was_it_used.pdf), [4](survey-results/learning_in_response_to_change.pdf), [5](survey-results/tool_usage.pdf)). Many more resources are available, and I suggest browsing the repository to review these additional materials.
+The research data is available end-to-end. The [survey questions](questionnaire-survey-script.pdf) are available for review. The [raw survey responses](survey-results/survey-responses-original.csv) are available, as well as the [source of the Pandas script](survey-results/stats.py) that generated the various results ([1](survey-results/best_tool.pdf), [2](survey-results/completion_by_tool.pdf), [3](survey-results/how_soon_was_it_used.pdf), [4](survey-results/learning_in_response_to_change.pdf), [5](survey-results/tool_usage.pdf)). Many more resources are available, and I suggest browsing the repository to review these additional materials.
+
+An additional interview survey was proposed and attempted, however due to lack of participation it did not contribute to the overall paper. The [script for the survey](interview-survey-script.md) is available in this repository as well.
 
 ## Coursework
 
