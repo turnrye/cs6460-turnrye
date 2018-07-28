@@ -4,7 +4,7 @@ all: coursework research paper
 
 research:
 	cd survey-results && \
-	python stats.py
+	python stats.py > analysis.md
 paper:
 	cd final-paper && \
 	pandoc paper.md -o paper.pdf --template proceedings.tex --filter pandoc-citeproc --bibliography citations.bib --csl acm-sigchi-proceedings.csl 

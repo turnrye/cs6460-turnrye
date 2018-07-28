@@ -5,22 +5,40 @@ author:
   email: rturner63@gatech.edu
   affiliation: Georgia Institute of Technology
 abstract:
-  WIP
+  Developers often face difficulties when learning new frameworks that are volatile -- ones that are quickly changing over time and often have little long term support or feature deprecation periods. As teams work to improve developer experience, they must take into account how developers learn these frameworks and produce learning materials that best meet the developers needs. Informal learning is well understood, and many learning tools have been examined for use by developers and fields. This research seeks to answer details instead of how learners use these tools when given a specific problem. So how do developers learn rapidly-changing frameworks?
+
+  38 developers responded to a brief survey with details about how they learned React Native, a current example of a rapidly changing framework. This survey looked at the respondent's background, the tools they used in the past, and details of their preferred learning tool over the previous 90 days. The data was compared to normal distributions to look for preferences and patterns.
+
+  Developers were shown to have favorite tools and commonly used tools, though they didn't directly correspond. Learning was immediately put to use in most cases. Developers most often did not complete consuming their learning tool, but they still had positive outcomes. Over one-third of developers learning during the period was a result of changes in the framework itself.
+
+  While this research specifically examined React Native, many of the learner preferences may be applied to other frameworks and technologies. A learner behavioral pattern emerges that may be considered to build more effective educational material.
 keyword: 
 - just in time
+- framework
+- rapidly-changing
 ---
 
 # Introduction
 
-Some background on what it is you're talking about. Typically, this will include a cursory literature review just to define the problem area. It will culminate in the question the paper is answering or the problem the paper is solving, typically followed by a brief summary of the contribution itself.
+Studying rapidly-changing technology like augmented reality and artificial intelligence most often takes the form of informal learning. For these, often documentation and samples are all the materials provided. Looking at more established topics like desktop computing and service management, the case is quite different. Corresponding certifications exist like CompTIA A+ and ITIL Foundation with accompanying curriculum and a network of professional teachers. The options vary greatly as the technology's maturity level changes. While computer science as a whole is a young practice compared to other kinds of engineering, certain topics pose bigger challenges to learners.
 
-For creators of technology, educating users is often a challenge. Some creators tend to introduce formal courses, while some others rely on users referencing documentation and trial-and-error. In some, third parties have created learning materials like weblog tutorials or even reference examples. 
+There is a wide body of knowledge on informal learning, as well as learning by developers. However, there has not been significant study on how learning occurs in various contexts. One such context is in the use of a framework, which is defined as "a form of software reuse that primarily promotes the reuse of entire architectures within a narrowly defined application domain" [@pasetti2002software]. Couple that framework with rapid change, and learners show behaviors best summarized as "just in time learning".
 
-Learning about a rapidly-changing technology like augmented reality and artificial intelligence seems to depend on informal education. For these, often documentation and a sample are all the materials provided. Looking at more established topics like desktop computing and service management, the case is quite different. Corresponding certifications exist like CompTIA A+ and ITIL Foundation with accompanying curriculum and a network of professional teachers. The options vary greatly as the technology's maturity level changes. 
+**How do developers learn rapidly-changing frameworks?**
 
-There is a wide body of knowledge on informal learning, as well as learning by developers. However, there has not been significant study on how learning occurs in these contexts. One such occurrence is in the use of a framework, which is defined as "a form of software reuse that primarily promotes the reuse of entire architectures within a narrowly defined application domain" [@pasetti2002software].
+To answer this question, the "where, when, and why" are considered. Specifically, the three following research questions are investigated:
 
-*How do developers learn rapidly-changing frameworks?*
+**RQ1: What learning tools are preferred?**
+
+Understanding what tools are preferred helps to identify what traits developers prefer in their tools, as well as what content creators use. In pursuing this, various tools for learning will be considered. Some examples include institution-sponsored courses, massive open online courses (MOOCs), books, weblog tutorials, forum and knowledge market threads, workshops, and even hackathons. This can answer what best suits rapidly-changing frameworks. This detail represents **where** the learning occurs.
+
+**RQ2: Is their learning motivated by a pressing need?**
+
+When working with rapidly changing frameworks, developers may choose to learn just-in-time to solve a new problem. Other developers may instead respond to rapid change by closely following progress and proactively learning new materials. These two are enabled by different kinds of educational content: the former needs to be problem based and easily found, whereas the latter needs to be more engaging and use constructionism. This detail represents **when** the learning occurs.
+
+**RQ3: What scope of knowledge do developers pursue?**
+
+The scope of learning tools widely varies, from weeks-long MOOCs to ten-minute read weblog posts. This question asks whether the learner is studying to move on with their day or instead to better understand something they already practice. They may be using tools entirely, piece-meal, or just referencing code snippets. This answers **why** the learning occurs. 
 
 # Related Work
 
@@ -34,13 +52,19 @@ Hackathons are presented as "excellent informal learning platforms" [@nandi2016h
 
 MOOCs present as popular online digital learning tools today. Popular examples include Coursera, edX, and Udacity. When considering learning theories within MOOCs, there tend to be either connectivism-driven MOOCs (cMOOCs) or extension MOOCs (xMOOCs) [@yousef2014review]. These are significantly different in their application of learning models, and more needs to be done to make use of informal, personalized, or professional learning on these platforms [@yousef2014review]. From anecdote, MOOCs appear to be a popular tool to learn frameworks.
 
-Informal learning, specifically by developers about emerging topics, relates to a topic proposed by @noe2014learning: "What antecedents and conditions facilitate continuous learning, especially informal learning, and knowledge sharing?" In considering the form of learning, @noe2014learning mention that "informal learning may be equally important to or even more important than other forms of learning." In fact, informal learning is so prevalent in organizations that it may account for up to 75% of learning [@noe2014learning; @bear2008tapping]. Yet, the future issue is still proposed: "What are the antecedents and consequences of informal learning?" [noe2014learning].
+Informal learning, specifically by developers about emerging topics, relates to a topic proposed by @noe2014learning: "What antecedents and conditions facilitate continuous learning, especially informal learning, and knowledge sharing?" In considering the form of learning, @noe2014learning mention that "informal learning may be equally important to or even more important than other forms of learning." In fact, informal learning is so prevalent in organizations that it may account for up to 75% of learning [@noe2014learning; @bear2008tapping]. Yet, the future issue is still proposed: "What are the antecedents and consequences of informal learning?" [@noe2014learning].
 
 # Methodology
 
+![Respondents had varied experience levels with JavaScript. \label{goodExperience}](../survey-results/js_experience.pdf){ width=50% height=40% }
+
+![Respondents had varied experience levels with React Native. \label{reasonableUse}](../survey-results/rn_familiarity.pdf){ width=50% height=40% }
+
 To better understand learning in this area, developers use of learning tools was reviewed. Ideally, developers would have been observed in their learning. Instead, a survey approach was taken. This is partly due to the feasibility to observing these interactions as well as the importance of capturing responses from an international audience. Finally, this approach permitted developers to report on their perceptions of the learning: why did it occur, how successful was it, and how soon was it put to use.
 
-For this research, the sample was limited to React Native practitioners and their use of the React Native framework. This helped the survey target a cohesive group of respondents, and the author's networking in the community aided in soliciting responses. React Native also is a widely used framework with the second highest contributor count on GitHub in 2017 [@githuboctoverse]. Its wide population of users coupled with its pre-stable status makes for an excellent case as a rapidly changing framework to study.
+For this research, the sample was limited to React Native practitioners and their use of the React Native framework. This helped the survey target a cohesive group of respondents, and the author's networking in the community aided in soliciting responses. React Native also is a widely used framework with the second highest contributor count on GitHub in 2017 [@githuboctoverse]. Its varied population of users coupled with its pre-stable status makes for an excellent case as a rapidly changing framework to study.
+
+The questionnaire survey was promoted through Twitter, chatrooms, mailing lists, and signs at a conference. Many respondents did not qualify for the survey and had their responses removed due to inexperience with the framework. Of those who remained, most were professional developers who had a medium-to-light level of experience with JavaScript (see figure \ref{goodExperience}). About half of the respondents were beginner React Native users, and the rest of the respondents were evenly split between completing a single project, completing multiple projects, and daily use (see figure \ref{reasonableUse}).
 
 The questionnaire survey starts by asking about the respondent's experience professionally, formal learning in programming, experience with JavaScript, and familiarity with React Native. React Native familiarity was used as a filtering question; if the respondent indicated no familiarity, the survey ended.
 
@@ -82,6 +106,10 @@ Learning module completion did vary by tool. Tools with fewer than 5 responses w
 
 ![Learning unit completion varied highly by tool. \label{completionByTool}](../survey-results/completion_by_tool.pdf){ width=50% height=40% }
 
+Despite generally not completing the full unit, user satisfaction was high. Figure \ref{learnerSatisfaction} shows that the most popular selection was a 4 out of 5 on satisfaction.
+
+![Learners are generally satisfied, though there is still more room to improve. \label{learnerSatisfaction}](../survey-results/needs_satisfied.pdf){ width=50% height=40% }
+
 # Limitations
 
 This research surveyed the community that uses React Native. Both the way the data was collected and the population surveyed present as limitations. While this work may apply to other web or mobile frameworks, some of the presumptions made may not match those for other tools.
@@ -98,6 +126,16 @@ Finally, some aspects of the survey asked about a 90 day time period. This is a 
 
 # Conclusion
 
-A summary, basically. Reiterate the context, the problem, the solution, the results, and the limitations.
+Software developers often have formal backgrounds, yet much of their technical contributions come from informal learning. While various kinds of informal learning have been studied, there is little understanding of how tools are used to learn emerging technologies. In fact, learning tools like MOOCs and peer discussion have been studied to understand their contributions to developer knowledge, but this has generally been oriented from the specific tool perspective or informal learning overall.
+
+Developers using rapidly-changing frameworks often need to use areas that are new, or changes occur to existing areas they already use. In this use, learners have specific sets of tools they depend on day to day as well as specific tools that are their primarily preferences. Most knowledge is immediately put to use. Learners generally don't complete the full course, but that doesn't mean there are subpar learning outcomes. In general, learners reported high satisfaction.
+
+Developers were polled about their learning React Native, which is a leading mobile development framework with many corporate sponsors. With monthly releases that have hundreds of contributions, there is a lot of regular change. Its developers generally are working in JavaScript, and some web technologies are used. This population may not be like others outside of the mobile and web development space. Additionally, this research depended on online surveys that asked respondents to speak about their experience in the past 90 days; this may have led to misrememberings.
+
+# Future Work
+
+This study may be considered a pilot study. More data is needed and the survey needs updating to reach more substantial conclusions. Detail about tool specific learning outcomes may be possible, and correlations between learning tool usage and overall learning duration may also be possible. Additionally, future work with this survey could restructure answers to result in data that is more practically analyzed.
+
+Originally, interview surveys were planned as well to collect qualitative data and investigate the motivation behind learning. Low survey participation prevented this from occurring. While surveys did not take place, a survey script was prepared and is available for future use in [the repository](https://github.com/turnrye/learning-rapidly-changing-frameworks).
 
 ## References
