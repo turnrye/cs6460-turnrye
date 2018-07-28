@@ -2,6 +2,8 @@
 
 In the summer term of 2018, I studied CS6460 at Georgia Institute of Technology; during this course, I researched how developers learn rapidly changing frameworks. This is closely related to just-in-time learning and informal learning. Below are the various work products of this research, working in what I believe is order of most interesting to least interesting.
 
+*An interactive version of this document is available at [turnrye.com/learning-rapidly-changing-frameworks](http://turnrye.com/learning-rapidly-changing-frameworks/)*
+
 ## Paper
 
 The [final paper](final-paper/paper.pdf) represents the culmination of this effort. It contains the writing associated with this pilot research and is one of the final deliverables for the CS6460 course. The [final paper directory](final-paper) contains the source for this writing.

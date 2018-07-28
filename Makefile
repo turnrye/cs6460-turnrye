@@ -1,6 +1,6 @@
-all: coursework research paper
+all: coursework research paper catalog
 
-.PHONY: research paper coursework
+.PHONY: research paper coursework catalog
 
 research:
 	cd survey-results && \
@@ -17,3 +17,5 @@ coursework:
 	pandoc --filter pandoc-citeproc --bibliography project-proposal.bibtex project-proposal.md -o project-proposal.pdf && \
 	pandoc --filter pandoc-citeproc --bibliography milestone-1.bibtex milestone-1.md -o milestone-1.pdf && \
 	pandoc --filter pandoc-citeproc --bibliography milestone-1.bibtex milestone-2.md -o milestone-2.pdf
+project:
+	pandoc --variable urlcolor=cyan README.md -o Catalog.pdf
