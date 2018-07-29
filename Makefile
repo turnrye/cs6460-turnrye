@@ -21,4 +21,5 @@ project:
 	pandoc --variable urlcolor=cyan README.md -o Catalog.pdf
 slides:
 	cd slides && \
-	pandoc -t revealjs -s -i -o slides.html slides.md -V revealjs-url=http://lab.hakim.se/reveal-js -V theme=white -V transistion=
+	pandoc -t revealjs -s -i -o slides.html slides.md -V revealjs-url=http://lab.hakim.se/reveal-js -V theme=white -V transistion= && \
+	pandoc --variable urlcolor=cyan video.md -o video.pdf
