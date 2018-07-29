@@ -8,6 +8,10 @@ In the summer term of 2018, I studied CS6460 at Georgia Institute of Technology;
 
 The [final paper](final-paper/paper.pdf) represents the culmination of this effort. It contains the writing associated with this pilot research and is one of the final deliverables for the CS6460 course. The [final paper directory](final-paper) contains the source for this writing.
 
+## Talk
+
+A [presentation is available](slides/video.webm?raw=true) covering this material. The [slides](slides/slides.html) for this are also available.
+
 ## Research
 
 The research data is available end-to-end. The [survey questions](questionnaire-survey-script.pdf) are available for review. The [raw survey responses](survey-results/survey-responses-original.csv) are available, as well as the [source of the Pandas script](survey-results/stats.py) that generated the various results ([1](survey-results/best_tool.pdf), [2](survey-results/completion_by_tool.pdf), [3](survey-results/how_soon_was_it_used.pdf), [4](survey-results/learning_in_response_to_change.pdf), [5](survey-results/tool_usage.pdf), [6](survey-results/experience.pdf), [7](survey-results/formal_study.pdf), [8](survey-results/js_experience.pdf), [9](survey-results/needs_satisfied.pdf), [10](survey-results/rn_familiarity.pdf), [11](survey-results/analysis.md)). Many more resources are available, and I suggest browsing the repository to review these additional materials.
