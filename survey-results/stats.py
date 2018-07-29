@@ -79,6 +79,7 @@ def calculate_total_tool_usages():
     figure = usage_plot.get_figure()
     figure.set_tight_layout(True)
     figure.savefig("tool_usage.pdf")
+    figure.savefig("tool_usage.png")
     plt.close()
     print '### Chi Square'
     print ''
@@ -103,6 +104,7 @@ def calculate_best_tool():
     figure = usage_plot.get_figure()
     figure.set_tight_layout(True)
     figure.savefig("best_tool.pdf")
+    figure.savefig("best_tool.png")
     plt.close()
     print '### Chi Square'
     print ''
@@ -157,6 +159,7 @@ def tool_completion():
     figure = usage_plot.get_figure()
     figure.set_tight_layout(True)
     figure.savefig("completion_by_tool.pdf")
+    figure.savefig("completion_by_tool.png")
     plt.close()
 
 def learning_in_response_to_change():
@@ -174,6 +177,7 @@ def learning_in_response_to_change():
     learning_plot.axis('equal')
     learning_figure.set_tight_layout(True)
     learning_figure.savefig("learning_in_response_to_change.pdf")
+    learning_figure.savefig("learning_in_response_to_change.png")
     plt.close()
     print ''
 
@@ -192,6 +196,7 @@ def how_soon_was_it_used():
     learning_figure = learning_plot.get_figure()
     learning_figure.set_tight_layout(True)
     learning_figure.savefig("how_soon_was_it_used.pdf")
+    learning_figure.savefig("how_soon_was_it_used.png")
     plt.close()
 
 def needs_satisfied():
@@ -199,7 +204,7 @@ def needs_satisfied():
     print '## User Satisfaction'
     print ''
     print "```"
-    print coded_results
+    print coded_results.mean()
     print "```"
     print ''
     learning_plot = coded_results.plot(kind='hist', title='User Satisfaction', colormap='Set3', bins=4, histtype='stepfilled')
@@ -208,6 +213,7 @@ def needs_satisfied():
     learning_figure = learning_plot.get_figure()
     learning_figure.set_tight_layout(True)
     learning_figure.savefig("needs_satisfied.pdf")
+    learning_figure.savefig("needs_satisfied.png")
     plt.close()
 
 best_tools_with_fewer_than_5_respondents = df['best_tool'].unique()[df['best_tool'].value_counts() < 5]

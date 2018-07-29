@@ -1,6 +1,6 @@
-all: coursework research paper catalog
+all: coursework research paper catalog slides
 
-.PHONY: research paper coursework catalog
+.PHONY: research paper coursework catalog slides
 
 research:
 	cd survey-results && \
@@ -19,3 +19,6 @@ coursework:
 	pandoc --filter pandoc-citeproc --bibliography milestone-1.bibtex milestone-2.md -o milestone-2.pdf
 project:
 	pandoc --variable urlcolor=cyan README.md -o Catalog.pdf
+slides:
+	cd slides && \
+	pandoc -t revealjs -s -i -o slides.html slides.md -V revealjs-url=http://lab.hakim.se/reveal-js -V theme=white -V transistion=
